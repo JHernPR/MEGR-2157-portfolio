@@ -1,2 +1,2 @@
 #About Me
-This is how to edit
+I am a sophomore mechanical engineering student.
