@@ -27,8 +27,16 @@ Thanh's website is manageable and allows the reader to navigate the website and 
 As previously stated, most of Thanh's projects are protected under NDA's, so information is limited. The electric motor dynamometer caught my attention, especially with my current job being related to engine dynos. There are detailed drawings with precise measurements, but a colleague might not be able to reproduce this without asking logical questions.
 
 **C**
+The electric motor Thahn contributed to shows the math behind the dyno, but does not show how decisions were made. While he mentions what the dynamometer does, and explains that is need to be balanced to minimize vibrations.
+
+**D**
 
 ## Decide
+**1. Homepage Identity:**  
+The purpose of the home page is 
+
+
+**2.Intentional customization**
 
 
 ## Communicate
