@@ -14,14 +14,14 @@ nav:
   - About Me: aboutme/index.md
   - Portfolio Overview: portfolio-overview.md
   - Assignments:
-      - A1 - Portfolio: assignments/A01/index.md
-      - A2 - Truss Stress Analysis: assignments/A02/index.md
-      - A3 - Parametric and FEA: assignments/A03/index.md
-      - A4 - Motor mount: assignments/A04/index.md
-      - A5 - Bracket Design: assignments/A05/index.md
-      - A6 - Bracket Drawing: assignments/A06/index.md
-      - A7 - FEA on Bracket: assignments/A07/index.md
-      - A8 - Gear Box Design: assignments/A08/index.md
-      - A9 - Pulley system Design: assignments/A09/index.md
-      - A10 - Lead Screw Design: assignments/A10/index.md
-      - A11 - Motor selection Design: assignments/A11/index.md
+      - A1 - Portfolio: assignments/Portfolio/index.md
+      - A2 - Truss Stress Analysis: assignments/Truss Stress Analysis/index.md
+      - A3 - Parametric and FEA: assignments/Parametric and FEA/index.md
+      - A4 - Motor mount: assignments/Motor mount/index.md
+      - A5 - Bracket Design: assignments/Bracket Design/index.md
+      - A6 - Bracket Drawing: assignments/Bracket Drawing/index.md
+      - A7 - FEA on Bracket: assignments/FEA on Bracket/index.md
+      - A8 - Gear Box Design: assignments/Gear Box Design/index.md
+      - A9 - Pulley system Design: assignments/Pulley system Design/index.md
+      - A10 - Lead Screw Design: assignments/Lead Screw Design/index.md
+      - A11 - Motor Selection Design: assignments/Motor Selection Design/index.md
