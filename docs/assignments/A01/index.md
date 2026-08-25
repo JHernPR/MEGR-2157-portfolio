@@ -7,7 +7,7 @@
 (https://natekarau61.github.io/Engineering-Portfolio/index.html#home)
 
 **A. Navigability:**
-Nate's portfolio lets you navigate between his information and other tabs in under 60 seconds. From the projects tab, I could locate all his projects, and once I clicked one, it was well documented with specific details and information about the project.
+Nate's portfolio lets you navigate between his information and other tabs in under 60 seconds. From the projects tab, I could locate all his projects, and once I clicked one, it was well documented with specific details and information about the project. Straight and direct to the point, the reader can choose to read into who Nate is, his work experience, or as stated before you can dive straight into his previous projects.
 
 **B. Reproducibility:**
 The documentation for the tilt table has enough information that a colleague could reproduce the work without asking questions. That being said, that would be in a perfect world. This project is very well documented, with a 122-slide presentation explaining the initial problem and including pictures to describe the situation further. 
