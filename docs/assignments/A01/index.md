@@ -34,7 +34,7 @@ The electric motor Thahn contributed to shows the math behind the dyno but not h
 
 Task B: Product Analysis
 
-**Product 12 point 1/2in drive socket**
+**Product:** 12 point 17mm 3/8th drive socket
 
 
 ## Decide
