@@ -21,7 +21,7 @@ The language behind the tilt table project is detailed and precise about what ha
 https://thanhvtran.com/
 
 **A. Navigability:**
-Thanh's website is manageable and lets the reader navigate to any specific assignment or project in less than sixty seconds. Most projects are protected under NDAs, but they provide a brief description of his contributions and visuals to show the reader what he was talking about. 
+Thanh's website is easy to navigate, and readers can reach any specific assignment or project in less than sixty seconds. Most projects are protected under NDAs, but they provide a brief description of his contributions and visuals to show the reader what he was talking about. 
 
 **B. Reproducibility:**
 As noted, most of Thanh's projects are protected under NDAs, so the information is limited. The electric motor dynamometer caught my attention, especially since my current job involves engine dynos. The drawings include detailed measurements, but a colleague might not be able to reproduce it without asking logical questions.
@@ -33,7 +33,7 @@ The electric motor Thahn contributed to shows the math behind the dyno but not h
 
 ## Decide
 **1. Homepage Identity:**  
-The homepage is one of the most essential parts of a portfolio as it can set the tone and image of yourself. 
+The homepage is one of the most essential parts of a portfolio because it sets the tone and image. 
 
 
 **2.Intentional customization**
