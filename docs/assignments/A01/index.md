@@ -33,11 +33,13 @@ The electric motor Thahn contributed to shows the math behind the dyno, but does
 
 ## Decide
 **1. Homepage Identity:**  
-The homepage introduces me as a mechanical engineering student, and it is used to provide a clear overview of the engineering portfolio. 
+The homepage is one of the most essential parts of a portfolio as it can set the tone and image of yourself. 
 
 
 **2.Intentional customization**
+One intentional customization I changed was the assignment name tabs. The reasoning behind this was so anybody who is in my portfolio can see what each project is, instead of just seeing A1 or A11. I decided to add the names to each assignment; that way it is easier to manage from project to project.
+**3. Documentation Standard**
 
-
+All material and data will be done to the best of my knowledge; this includes calculations, research, schematics, and drawings, which will all be held to a standard that shows honesty, legitimacy, and realism behind every decision. 
 ## Communicate
 
