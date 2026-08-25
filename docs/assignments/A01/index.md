@@ -37,7 +37,7 @@ The portfolio contains a professional tone that meets the standard of a document
 ### Task B: Product Analysis
 
 **Product:** 12 point 17mm 3/8th drive socket
-![17mm socket](https://github.com/JHernPR/MEGR-2157-portfolio/blob/c26d86a922f45e36fce8fb5fa100f5ae92cf57e1/docs/assignments/A01/17mm%20socket%20PT4.jpg)
+![17mm socket](17mm%20socket%20P4.jpg)
 
 The primary function of a socket is to transmit the torque from a 3/8th drive tool to a 17mm hex or 12-point fastener, allowing the fastener to be tightened or loosened. The design inside the 3/8th square lets a ratchet or extension snap into the slot and stay in place. The 12-point side of the socket lets it seat on a 17mm bolt or nut from multiple positions.
 
