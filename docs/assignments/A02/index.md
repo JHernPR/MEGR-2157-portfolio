@@ -30,7 +30,7 @@ I chose a trapezoid-style geometry with internal beams to increase overall suppo
 ### Free-Body Diagram
 
 ![FBD](A2_FBD.PNG)
-After crafting my initial design, I started creating free body diagrams for each joint algebraically to understand what was happening without doing the calculations first. I solved each Joint to find the horizontal and vertical forces. Although I only had to do one side and could've mirrored the formulas to the other side of the centerline, I solved them all as an extra step to validate my work. There were only seven forces to look for, as that's all the beams in the system. The other purpose behind the FBS's and doing it algebraically first is your brain isnt focused on numbers just yet, youre using common sense to find equilibriums. 
+After crafting my initial design, I started creating free-body diagrams for each joint algebraically to understand what was happening before doing the calculations. I solved each Joint to find the horizontal and vertical forces. Although I only had to do one side and could've mirrored the formulas to the other side of the centerline, I solved them all as an extra step to validate my work. There were only seven forces to look for, as that's all the beams in the system. The other purpose behind the FBSs and doing it algebraically first is that your brain isn't focused on numbers just yet; you're using common sense to find equilibria. 
 
 ### Supports
 
@@ -48,7 +48,7 @@ Now that I have all the information needed to solve for forces, it's just plug-a
 
 ![Crossc](A2_crossectional.PNG)
 
-Solving for all my internal forces numerically not only confirmed the structure is symmetrical but also confirmed equilibrium. This set of problems also identifies which beams are in compression and which are in tension; all of my answers for internal forces are correct, but the ones that say (c) are members acting in compression, while the other beams are in tension. As shown by the algebraic solution, you needed variables from the support reactions to solve for all internal forces. The way I wrote them down allowed me to start from top to bottom, solving these problems while pulling valuable info from the known variables. 
+Solving for all my internal forces numerically not only confirmed the structure is symmetrical but also confirmed equilibrium. This set of problems also identifies which beams are in compression and which are in tension; all my internal-force answers are correct, but the ones labeled (c) are members acting in compression, while the other beams are in tension. As shown by the algebraic solution, you needed variables from the support reactions to solve for all internal forces. The way I wrote them down let me start from top to bottom, solving the problem while pulling valuable info from the known variables. 
 
 ### Weight
 ![Weight](A2_Weight.PNG)
