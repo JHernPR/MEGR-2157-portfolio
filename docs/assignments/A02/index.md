@@ -13,12 +13,14 @@ The purpose of this assignment was to design a truss with given parameters and d
 + Compare CAD weight predictions with hand calculations.
 + Document key engineering lessons learned from the process.
 
-![Initial Blueprint]
+![Initial Blueprint](A2_blueprint.PNG)
 ## Analyze
 
 
 
 ## Decide
+
+![Initial Blueprint](A2_Initial_design.PNG)
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
 ## Communicate
