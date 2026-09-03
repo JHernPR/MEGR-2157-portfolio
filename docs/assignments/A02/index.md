@@ -53,7 +53,7 @@ One thing that stood out during the initial calculations was that there were onl
 
 ![Area](A2_area_PT2.PNG)
 
-When considering cross-sectional area, I used the minimum required for the truss to work, along with a safety factor. Because the project stated no size limitations, I chose a square beam 16mm by 16mm, which gave a total of 256mm squared. This also made further calculations simpler, with less room for error, regardless of who is doing the calculations. The reason behind 16mm was that the square root of the minimum cross-sectional area is 15.4369mm squared. That being said, you cannot use 15 because the area would be smaller than required.
+When considering cross-sectional area, I used the minimum required for the truss to work, along with a safety factor. Because the project stated no size limitations, I chose a square beam 16mm by 16mm, for a total area of 256mm squared. This also made further calculations simpler, with less room for error, regardless of who is doing the calculations. The reason behind 16mm was that the square root of the minimum cross-sectional area is 15.4369mm squared. That being said, you cannot use 15 because the area would be smaller than required.
 
 ### Weight
 ![Weight](A2_Weight.PNG)
@@ -62,7 +62,7 @@ Now that I have the specific area needed for the project to work, I can start fi
 
 ### Cross section of Pins 
 ![pin-Information](A2_Pin_information.PNG)
-This is all of the information used for the pins to determine the cross-sectional area of the pins, along with using the given yield shear strength and density. I tried to keep the process similar to what I did for the truss: solve algebraically, then solve numerically. 
+This is all the information used for the pins to determine their cross-sectional area, along with the given yield shear strength and density. I tried to keep the process similar to what I did for the truss: solve algebraically, then solve numerically. 
 
 ### CAD Models 
 ![Truss_model](CAD_A2_1.PNG)
@@ -71,13 +71,13 @@ This is all of the information used for the pins to determine the cross-sectiona
 
 ## Communicate
 
-One thing I learned from this project was how challenging it can be to transfer paper calculations into SolidWorks. The paper calculations were a little challenging just because of how much was going on. Going through things one step at a time and carefully reviewing everything made it better. I also realized that choosing a simpler design in this situation helps you understand the lesson being taught much better. When designing the pins, that is one area I personally struggled with: analyzing the variables behind it. I need to recheck why SolidWorks isn't picking up volume for the truss. The properties page for the pin worked smoothly, which makes sense as it is just an extruded pin.
+One thing I learned from this project was how challenging it can be to transfer paper calculations into SolidWorks. The paper calculations were a little challenging because there was so much going on. Going through things one step at a time and carefully reviewing everything made it better. I also realized that choosing a simpler design in this situation helps you understand the lesson being taught much better. When designing the pins, I struggled with analyzing the variables behind it. I need to recheck why SolidWorks isn't picking up the truss volume. The properties page for the pin worked smoothly, which makes sense as it is just an extruded pin.
 
-Overall, I spent about 8-10 hours total on research and analysis; the part that took me the most time was getting acclimated to SolidWorks again. I am planning on starting these projects earlier and quickly developing a way to not get so caught up in the begining  stages 
+Overall, I spent about 8-10 hours total on research and analysis; the part that took me the most time was getting acclimated to SolidWorks again. I plan to start these projects earlier and quickly develop a way to avoid getting so caught up in the beginning stages, leaving more time to button up the GitHub page and spend more time in SolidWorks.
 
 
 
 # CAD FILES
-[Download the File Here]
+[Download the File Here](https://github.com/JHernPR/MEGR-2157-portfolio/blob/main/docs/assignments/A02/JHA_A2.zip)
 
 
