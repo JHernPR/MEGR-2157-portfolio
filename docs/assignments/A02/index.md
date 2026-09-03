@@ -73,7 +73,7 @@ This is all of the information used for the pins to determine the cross-sectiona
 
 One thing I learned from this project was how challenging it can be to transfer paper calculations into SolidWorks. The paper calculations were a little challenging just because of how much was going on. Going through things one step at a time and carefully reviewing everything made it better. I also realized that choosing a simpler design in this situation helps you understand the lesson being taught much better. When designing the pins, that is one area I personally struggled with: analyzing the variables behind it. I need to recheck why SolidWorks isn't picking up volume for the truss. The properties page for the pin worked smoothly, which makes sense as it is just an extruded pin.
 
-Overall, I spent about 8-10 hours total on research and analysis; the part that took me the most time was getting acclimated to SolidWorks again.
+Overall, I spent about 8-10 hours total on research and analysis; the part that took me the most time was getting acclimated to SolidWorks again. I am planning on starting these projects earlier and quickly developing a way to not get so caught up in the begining  stages 
 
 
 
