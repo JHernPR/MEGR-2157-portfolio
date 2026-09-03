@@ -13,6 +13,7 @@ The purpose of this assignment was to design a truss with given parameters and d
 + Compare CAD weight predictions with hand calculations.
 + Document key engineering lessons learned from the process.
 
+![Initial Blueprint]
 ## Analyze
 
 
