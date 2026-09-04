@@ -58,7 +58,7 @@ When considering cross-sectional area, I used the minimum required for the truss
 ### Weight
 ![Weight](Trussweight.PNG)
 
-Now that I have the specific area needed for the project to work, I can start figuring out the weight of my truss. Adding all of my beams, I got 3.32 m or 3320mm. The reason for the square root formula in this image was to split the middle triangle to find the real distance of beams CE and DE. This meant that I now had my length, area, and density, which came from SolidWorks. With all these variables, I multiplied them together; the mm units cancel out, leaving kg for the weight: 6.68kg.
+Now that I have the specific area needed for the project to work, I can start figuring out the weight of my truss. Adding all of my beams, I got 3.32 m, or 3320mm. The reason for the square root formula in this image was to split the middle triangle to find the real distance of beams CE and DE. This meant that I now had my length, area, and density, which came from SolidWorks. With all these variables, I multiplied them together; the mm units cancel out, leaving kg for the weight: 6.68kg.
 
 ### Cross section of Pins 
 ![pin-Information](A2_Pin_information.PNG)
@@ -88,7 +88,9 @@ Overall, I spent about 8-10 hours total on research and analysis; the part that 
 | **EA** |     11.11 kN |   C   | Buckling                 | Ductile  |
 | **AD** |     13.89 kN |   T   | Yielding                 | Ductile  |
 
+From the AI-generated table, the stress comparison shows that tensile members are more likely to be limited by yielding. In contrast,e compression members are more likely to be limited by buckling. Using the area and the largest force for normal stress produces a total of 96.1 MPa. This falls below the allowable stress of 100 MPa, which I found by dividing 350 MPa by the given safety factor of 3.5. The tensile members are not expected to yield under the design load. The compression members are not expected to yield either, but buckling is a more relevant failure mode because they can lose stability before reaching the material's yield strength.
 
+SOURCE: https://engineeringstatics.org/Chapter_06-trusses.html?utm_source
 # CAD FILES
 [📦 Download JHA A2 Files](JHA_A2.zip)
 
