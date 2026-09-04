@@ -32,7 +32,7 @@ I chose a trapezoid-style geometry with internal beams to increase overall suppo
 
 ![FBD](A2_FBD.PNG)
 
-After crafting my initial design, I started creating free-body diagrams for each joint algebraically to understand what was happening before calculating. I solved each Joint to find the horizontal and vertical forces. Although I only had to do one side and could've mirrored the formulas to the other side of the centerline, I solved them all as an extra step to validate my work. There were only seven forces to look for, as that's all the beams in the system. The other purpose behind the FBSs and doing it algebraically first is that your brain isn't focused on numbers just yet; you're using common sense to find equilibria. 
+After crafting my initial design, I started creating free-body diagrams for each joint algebraically to understand what was happening before calculating. I solved each Joint to find the horizontal and vertical forces. Although I only had to do one side and could've mirrored the formulas to the other side of the centerline, I solved them all as an extra step to validate my work. There were only seven forces to look for, as that's all the beams in the system. The other purpose of doing the FBSs first  is that your brain isn't focused on numbers yet; you're using common sense to find equilibrium. 
 
 ### Supports
 
@@ -44,7 +44,7 @@ Once I sketched and properly labeled the FBDs with their respective forces, I st
 
 ![Num](Trussnewsolve.PNG)
 
-Solving for all my internal forces numerically confirmed the structure is symmetrical and in equilibrium. This set of problems also identifies which beams are in compression and which are in tension; all my internal-force answers are correct, but the ones labeled (c) are members acting in compression, while the other beams are in tension. As shown by the algebraic solution, you needed variables from the support reactions to solve for all internal forces. The way I wrote them down let me start from top to bottom, solving the problem while pulling valuable info from the known variables. 
+Solving for all my internal forces numerically confirmed the structure is symmetrical and in equilibrium. This set of problems also identifies which beams are in compression and which are in tension; all my internal-force answers are correct, but the members labeled (c) are in compression, while the other beams are in tension. As shown by the algebraic solution, you needed variables from the support reactions to solve for all internal forces. The way I wrote them down let me start from top to bottom, solving the problem while pulling valuable info from the known variables. 
 One thing that stood out during the initial calculations was that there were only two force results, either positive or negative, between 20.83 kN and 16.66 kN. Beam CD ended up being zero, which makes sense as the system is symmetrical. 
 
 ### Cross Sectional Area
@@ -53,7 +53,7 @@ One thing that stood out during the initial calculations was that there were onl
 
 ![Area](Trussextraarea.PNG)
 
-When considering cross-sectional area, I used the minimum required for the truss to work, along with a safety factor. Because the project stated no size limitations, I chose a square beam 17mm by 17mm, for a total area of 289 mm². This also made further calculations simpler, with less room for error, regardless of who is doing the calculations. The reason behind 16mm was that the square root of the minimum cross-sectional area is 16.6673 mm. That being said, you cannot use 15 because the area would be smaller than required.
+When considering cross-sectional area, I used the minimum required for the truss to work, along with a safety factor. Because the project stated no size limitations, I chose a square beam 17mm by 17mm, for a total area of 289 mm². This also made further calculations simpler and reduced the room for error, regardless of who is doing the calculations. The reason behind 16mm was that the square root of the minimum cross-sectional area is 16.6673 mm. That being said, you cannot use 15 because the area would be smaller than required.
 
 ### Weight
 ![Weight](Trussweight.PNG)
@@ -68,10 +68,11 @@ This is all the information used for the pins to determine their cross-sectional
 ![Truss_model](CAD_A2_1.PNG)
 ![Truss](A2_Truss.PNG)
 ![Info](Trussnewinfo.PNG)
-
+![Pin](PINPIC.PNG)
+![Pinp](Pin_A2_Info.PNG)
 ## Communicate
 
-One thing I learned from this project was how challenging it can be to transfer paper calculations into SolidWorks. The paper calculations were a little challenging because there was so much going on. Going through things one step at a time and carefully reviewing everything made it better. I also realized that choosing a simpler design in this situation helps you understand the lesson being taught much better. When designing the pins, I struggled with analyzing the variables behind it. I need to recheck why SolidWorks isn't picking up the truss volume. The properties page for the pin worked smoothly, which makes sense as it is just an extruded pin.
+One thing I learned from this project was how challenging it can be to transfer paper calculations into SolidWorks. The paper calculations were a little challenging because there was so much going on. Going through things one step at a time and carefully reviewing everything made it better. I also realized that choosing a simpler design in this situation helps you understand the lesson being taught much better. When designing the pins, I analyzed the variables behind it. I need to recheck why SolidWorks isn't picking up the truss volume. The properties page for the pin worked smoothly, which makes sense as it is just an extruded pin.
 
 Overall, I spent about 8-10 hours total on research and analysis; the part that took me the most time was getting acclimated to SolidWorks again. I plan to start these projects earlier and quickly develop a way to avoid getting so caught up in the beginning stages, leaving more time to button up the GitHub page and spend more time in SolidWorks.
 
