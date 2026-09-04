@@ -91,6 +91,8 @@ Overall, I spent about 8-10 hours total on research and analysis; the part that 
 From the AI-generated table, the stress comparison shows that tensile members are more likely to be limited by yielding. In contrast,e compression members are more likely to be limited by buckling. Using the area and the largest force for normal stress produces a total of 96.1 MPa. This falls below the allowable stress of 100 MPa, which I found by dividing 350 MPa by the given safety factor of 3.5. The tensile members are not expected to yield under the design load. The compression members are not expected to yield either, but buckling is a more relevant failure mode because they can lose stability before reaching the material's yield strength.
 
 SOURCE: https://engineeringstatics.org/Chapter_06-trusses.html?utm_source
+
+A modification I would propose in this scenario is to re-analyze how the beams were placed and explore different methods to distribute the loads in the design. 
 # CAD FILES
 [📦 Download JHA A2 Files](JHA_A2.zip)
 
