@@ -72,10 +72,21 @@ This is all the information used for the pins to determine their cross-sectional
 ![Pinp](Pin_A2_Info.PNG)
 ## Communicate
 
-One thing I learned from this project was how challenging it can be to transfer paper calculations into SolidWorks. The paper calculations were a little challenging because there was so much going on. Going through things one step at a time and carefully reviewing everything made it better. I also realized that choosing a simpler design in this situation helps you understand the lesson being taught much better. When designing the pins, I analyzed the variables behind it. I need to recheck why SolidWorks isn't picking up the truss volume. The properties page for the pin worked smoothly, which makes sense as it is just an extruded pin.
+One thing I learned from this project was how challenging it can be to transfer paper calculations into SolidWorks. The paper calculations were a little challenging because there was so much going on. Going through things one step at a time and carefully reviewing everything made it better. I also realized that choosing a simpler design in this situation helps you understand the lesson being taught much better. When designing the pins, I analyzed the variables behind it. One realization I had was that my area was not what I expected for my truss.
 
 Overall, I spent about 8-10 hours total on research and analysis; the part that took me the most time was getting acclimated to SolidWorks again. I plan to start these projects earlier and quickly develop a way to avoid getting so caught up in the beginning stages, leaving more time to button up the GitHub page and spend more time in SolidWorks.
 
+## 2157 Only
+
+| Member |        Force |  T/C  | Expected Failure Mode    | Material |
+| ------ | -----------: | :---: | ------------------------ | -------- |
+| **BC** |     13.89 kN |   C   | Buckling                 | Ductile  |
+| **BE** |     11.11 kN |   T   | Yielding                 | Ductile  |
+| **CE** | **27.78 kN** | **C** | Buckling                 | Ductile  |
+| **CD** |         0 kN |   —   | None under given loading | Ductile  |
+| **DE** | **27.78 kN** | **T** | Yielding                 | Ductile  |
+| **EA** |     11.11 kN |   C   | Buckling                 | Ductile  |
+| **AD** |     13.89 kN |   T   | Yielding                 | Ductile  |
 
 
 # CAD FILES
