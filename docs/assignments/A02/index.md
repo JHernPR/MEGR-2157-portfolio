@@ -53,12 +53,12 @@ One thing that stood out during the initial calculations was that there were onl
 
 ![Area](A2_area_PT2.PNG)
 
-When considering cross-sectional area, I used the minimum required for the truss to work, along with a safety factor. Because the project stated no size limitations, I chose a square beam 16mm by 16mm, for a total area of 256mm squared. This also made further calculations simpler, with less room for error, regardless of who is doing the calculations. The reason behind 16mm was that the square root of the minimum cross-sectional area is 15.4369mm squared. That being said, you cannot use 15 because the area would be smaller than required.
+When considering cross-sectional area, I used the minimum required for the truss to work, along with a safety factor. Because the project stated no size limitations, I chose a square beam 16mm by 16mm, for a total area of 256 mm². This also made further calculations simpler, with less room for error, regardless of who is doing the calculations. The reason behind 16mm was that the square root of the minimum cross-sectional area is 15.4369 mm. That being said, you cannot use 15 because the area would be smaller than required.
 
 ### Weight
 ![Weight](A2_Weight.PNG)
 
-Now that I have the specific area needed for the project to work, I can start figuring out the weight of my truss. Adding all of my beams, I got 3.32mm or 3320mm. The reason for the square root formula in this image was to split the middle triangle to find the real distance of beams CE and DE. This meant that I now have my length, area, and density, which came from SolidWorks. With all these variables, I multiplied them together; the mm units cancel out, leaving kg for the weight: 6.68kg.
+Now that I have the specific area needed for the project to work, I can start figuring out the weight of my truss. Adding all of my beams, I got 3.32 m or 3320mm. The reason for the square root formula in this image was to split the middle triangle to find the real distance of beams CE and DE. This meant that I now had my length, area, and density, which came from SolidWorks. With all these variables, I multiplied them together; the mm units cancel out, leaving kg for the weight: 6.68kg.
 
 ### Cross section of Pins 
 ![pin-Information](A2_Pin_information.PNG)
@@ -67,7 +67,7 @@ This is all the information used for the pins to determine their cross-sectional
 ### CAD Models 
 ![Truss_model](CAD_A2_1.PNG)
 ![Truss](A2_Truss.PNG)
-![Info](A2_Info.PNG)
+![Info](A2_Info1.PNG)
 
 ## Communicate
 
