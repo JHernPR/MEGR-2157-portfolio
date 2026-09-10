@@ -64,6 +64,9 @@ When modifying my parameters, I decided to go with a smaller bar of the same thi
 
 ![NEW](NEWLOAD.PNG)
 
+# CAD File
+
+
 
 
 
