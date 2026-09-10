@@ -32,6 +32,9 @@ After designing my bar, I ran an FEA to evaluate the deflection and Von Mises st
 ![DISP](DisplacementSimulation.PNG)
 ![stress](StressSimulation.PNG)
 
+**Safety Factor**
+
+The safety factor was determined by comparing the given yield strength of aluminum, 40 ksi, to the calculated axial stress in the bar. The axial stress was calculated using the direct stress equation, F/A, which resulted in a stress of approximately 2.716 ksi. The safety factor was then calculated using the given yield strength divided by 2.716; the ksi cancel out, equaling 14.7. Meaning the calculated stress is well below the specified 40 ksi yield strength. This indicates that the bar should safely withstand the applied 400 lbf load without reaching the given yield strength.
 
 ## Decide
 
