@@ -58,6 +58,11 @@ Throughout the assignment, I learned how to use the parametric modeling and FEA 
 
 The total time this assignment took was around 5 hours accumulated. 
 
+**2157 ONLY**
+
+When modifying my parameters, I decided to go with a smaller bar of the same thickness, but I increased my force. My overall area is smaller but due to the force being bigger I expect the length to be smaller because it is being divided by a larger number than before. After doing my calculations, my prediction was correct. 
+
+![NEW](NEWLOAD.PNG)
 
 
 
