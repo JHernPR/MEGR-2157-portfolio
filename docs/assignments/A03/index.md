@@ -40,14 +40,26 @@ The safety factor was determined by comparing the given yield strength of alumin
 
 **Design reflection**
 
-![%error](Percenterror.PNG)
-
 The hand calculation resulted in a maximum axial deflection of 0.009 in, while the FEA produced a maximum displacement of 0.008989 in. The percent difference between the two results was calculated to be approximately 0.12%. This is a very small difference, indicating that the analytical calculation and FEA results agree closely. Since the bar has a uniform cross section and is subjected to direct axial tension, the close agreement is expected because the assumptions used in the hand calculation closely represent the conditions modeled in the FEA. 
 
 The hand calculation resulted in an axial stress of approximately 2.716 ksi, while the FEA produced a maximum Von Mises stress of approximately 2.920 ksi. The percent difference between the two results was calculated to be approximately 7.53%. The FEA stress is slightly higher than the analytical result, which can be attributed to the FEA accounting for localized effects near the fixed boundary and the numerical nature of the finite element mesh. Overall, the results are reasonably close, and both results indicate that the bar remains well below the given aluminum yield strength of 40 ksi.
 
+![%error](Percenterror.PNG)
 
 **Stress at Pin**
+
+I assumed a substantial 0.25-in diameter pin hole on the left side of the bar. Using the bar's 0.50-in outer diameter as the characteristic width gives a D/W ratio of 0.50. From the stress concentration chart, a stress concentration factor of approximately Kt = 2.17 is obtained. Using the nominal stress of 2.716 ksi from the analysis, the estimated peak stress at the hole is approximately 5.89 ksi. Comparing this value to the given aluminum yield strength of 40 ksi results in a safety factor of approximately 6.79. Therefore, even with the assumed substantial pin hole, the design would still remain below the given yield strength and would pass the strength requirement.
+
+![stress](STRESS.PNG)
+
+**Lesson learned and time**
+
+Throughout the assignment, I learned how to use the parametric modeling and FEA features from SolidWorks, and how they can be used to design and verify a component. Not necessarily a mistake, but one thing that did stick out to me was how, depending on the calculations, your bar can be extremely long and unrealistic. In one of my initial calculations, the length of the bar was almost 200ft long, and I decided to modify my measurements to make it more realistic. That's how I got to my design of .5 in diamenter with .25 in inner diamater bar. Getting acclimated to the equation feature in SolidWorks was also time-consuming, as I have never used it before. Working through it, it taught me how beneficial that feature can be for your decision-making when it comes to making a design. The FEA also helped me understand how the fixed geometry and applied force affect the stress and displacement results. Overall, this assignment improved my understanding of using analytical calculations to create a design and then using FEA to verify that design. 
+
+The total time this assignment took was around 5 hours accumulated. 
+
+
+
 
 
 
