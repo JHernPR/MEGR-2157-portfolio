@@ -66,6 +66,8 @@ When modifying my parameters, I decided to go with a smaller bar of the same thi
 
 # CAD File
 
+[JHA_A3](A3JHA.SLDPRT)
+
 
 
 
