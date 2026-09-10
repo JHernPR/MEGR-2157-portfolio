@@ -40,7 +40,14 @@ The safety factor was determined by comparing the given yield strength of alumin
 
 **Design reflection**
 
-The hand calculation resulted in a maximum axial deflection of 0.009 in, while the FEA produced a maximum displacement of 0.008989 in. The percent difference between the two results was calculated to be approximately 0.12%. This is a very small difference, indicating that the analytical calculation and FEA results agree closely. Since the bar has a uniform cross section and is subjected to direct axial tension, the close agreement is expected because the assumptions used in the hand calculation closely represent the conditions modeled in the FEA. The hand calculation resulted in an axial stress of approximately 2.716 ksi, while the FEA produced a maximum Von Mises stress of approximately 2.920 ksi. The percent difference between the two results was calculated to be approximately 7.53%. The FEA stress is slightly higher than the analytical result, which can be attributed to the FEA accounting for localized effects near the fixed boundary and the numerical nature of the finite element mesh. Overall, the results are reasonably close, and both results indicate that the bar remains well below the given aluminum yield strength of 40 ksi.
+![%error](Percenterror.PNG)
 
-## Communicate
+The hand calculation resulted in a maximum axial deflection of 0.009 in, while the FEA produced a maximum displacement of 0.008989 in. The percent difference between the two results was calculated to be approximately 0.12%. This is a very small difference, indicating that the analytical calculation and FEA results agree closely. Since the bar has a uniform cross section and is subjected to direct axial tension, the close agreement is expected because the assumptions used in the hand calculation closely represent the conditions modeled in the FEA. 
+
+The hand calculation resulted in an axial stress of approximately 2.716 ksi, while the FEA produced a maximum Von Mises stress of approximately 2.920 ksi. The percent difference between the two results was calculated to be approximately 7.53%. The FEA stress is slightly higher than the analytical result, which can be attributed to the FEA accounting for localized effects near the fixed boundary and the numerical nature of the finite element mesh. Overall, the results are reasonably close, and both results indicate that the bar remains well below the given aluminum yield strength of 40 ksi.
+
+
+**Stress at Pin**
+
+
 
