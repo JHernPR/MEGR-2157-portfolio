@@ -54,6 +54,14 @@ To start off, while I analyzed two features, I made a simple L-shaped bracket an
 After that, I extruded the bracket to my already established thickness that I calculated in my previous work.
 
 ![generalkenobi](A4Thickness.PNG)
+
+The next step was to cut the holes where the shaft would go through, along with the holes for the screws that would bolt through the mount directly into the motor, along with four holes cut for where the mount would theoretically mount to a fixed surface.
+
+![sowemeetagain](A41stcut.PNG)
+![galaxy](A4secondcut.PNG)
+![faraway](A43rdcut.PNG)
+![veryfar](A44thcut.PNG)
+![Palpatine](A4Part.PNG)
 ## Analyze
 
 
