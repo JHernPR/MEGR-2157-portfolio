@@ -18,11 +18,21 @@ To determine the required width, I first created a free-body diagram of the feat
 
 I also evaluated the feature based on stiffness by using the maximum deflection equation. This calculation resulted in a required width of approximately 2.12 mm. Since the width required for strength was greater than the width required for stiffness, the strength requirement controlled the design.
 
-Although the calculated minimum width was 3.32 mm, I selected a final width of 5 mm. Choosing a slightly larger dimension provides additional margin while still keeping the feature relatively small. I then substituted the 5 mm width back into the maximum stress equation and obtained a stress of approximately 10 N/mm², which is below the allowable stress of 15.06 N/mm². This confirmed that the selected 5 mm width satisfies the strength requirement. The calculations and free-body diagram used to determine these dimensions are shown below.
+Although the calculated minimum width was 3.32 mm, I selected a final width of 5 mm. Choosing a slightly larger dimension provides additional margin while still keeping the feature relatively small. I then substituted the 5 mm width back into the maximum stress equation and obtained a stress of approximately 10 N/mm², which is below the allowable stress of 15.06 N/mm². This confirmed that the selected 5 mm width satisfies the strength requirement.
 
-![Feature1]
+![Feature1](A4Ft1.PNG)
 
 
+## Feature 2
+
+Feature Two is the mounting section that connects the motor mount to the rigid wall. The primary design consideration for this feature was determining the minimum thickness (b) required to withstand the applied 300 N load while satisfying both the strength and stiffness requirements. I selected a length of 30 mm and a height of 40 mm, leaving the thickness (b) as the primary dimension to be determined.
+
+To determine the required thickness, I first created a free-body diagram to identify the forces acting on the feature and the resulting bending moment at the fixed connection. The applied 300 N load produces a bending moment of 7500 N · mm. I then used the maximum bending stress equation and rearranged it to solve for the minimum thickness required based on strength. This resulted in a minimum thickness of approximately **1.87 mm**.
+
+I also evaluated the feature based on stiffness by using the maximum deflection equation. This calculation resulted in a required thickness of approximately **0.85 mm**. Since the thickness required for strength was greater than the thickness required for stiffness, the **strength requirement controlled the design**.
+
+Based on these calculations, I selected a final thickness of **2 mm**. This dimension is slightly larger than the calculated minimum required by the strength condition and provides additional margin while maintaining a relatively compact design. As a final check, I substituted the 2 mm thickness into the maximum stress equation and obtained a maximum stress of approximately **14.06 N/mm²**, which is below the allowable stress of **15.06 N/mm²**. This confirms that the selected 2 mm thickness satisfies the strength requirement. 
+![Feature1](A4Ft2.PNG)
 ## Analyze
 
 
