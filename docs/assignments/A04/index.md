@@ -12,7 +12,7 @@ After determining the required dimensions through the analytical calculations, I
 
 
 ## Feature 1
-Feature One serves as the base to which the motor will be bolted. The main design consideration for this feature was determining the minimum width (b), required to support the applied 300 N load while satisfying both the strength and stiffness requirements. I selected a length of 25 mm, which is greater than the motor’s 22 mm diameter, and a height of 30 mm. The remaining unknown dimension was therefore the width (b).
+Feature One serves as the base to which the motor will be bolted. The main design consideration for this feature was determining the minimum width (b), required to support the applied 300 N load while satisfying both the strength and stiffness requirements. I selected a length of 25 mm, which is greater than the motor’s 22 mm diameter, and a height of 30 mm. The remaining unknown dimension was therefore the width (b). 
 
 To determine the required width, I first created a free-body diagram of the feature to identify the loading conditions and resulting bending moment. The 300 N applied force acts at the end of the feature, creating a moment at the fixed wall. I then used the maximum bending stress equation and rearranged it to solve for the minimum width required based on strength. This resulted in a minimum width of approximately 3.32 mm.
 
@@ -27,12 +27,20 @@ Although the calculated minimum width was 3.32 mm, I selected a final width of 5
 
 Feature Two is the mounting section that connects the motor mount to the rigid wall. The primary design consideration for this feature was determining the minimum thickness (b) required to withstand the applied 300 N load while satisfying both the strength and stiffness requirements. I selected a length of 30 mm and a height of 40 mm, leaving the thickness (b) as the primary dimension to be determined.
 
-To determine the required thickness, I first created a free-body diagram to identify the forces acting on the feature and the resulting bending moment at the fixed connection. The applied 300 N load produces a bending moment of 7500 N · mm. I then used the maximum bending stress equation and rearranged it to solve for the minimum thickness required based on strength. This resulted in a minimum thickness of approximately **1.87 mm**.
+To determine the required thickness, I first created a free-body diagram to identify the forces acting on the feature and the resulting bending moment at the fixed connection. The applied 300 N load produces a bending moment of 7500 N · mm. I then used the maximum bending stress equation and rearranged it to solve for the minimum thickness required based on strength. This resulted in a minimum thickness of approximately 1.87 mm.
 
-I also evaluated the feature based on stiffness by using the maximum deflection equation. This calculation resulted in a required thickness of approximately **0.85 mm**. Since the thickness required for strength was greater than the thickness required for stiffness, the **strength requirement controlled the design**.
+I also evaluated the feature based on stiffness by using the maximum deflection equation. This calculation resulted in a required thickness of approximately .85 mm. Since the thickness required for strength was greater than the thickness required for stiffness, the strength factor controlled the design.
 
-Based on these calculations, I selected a final thickness of **2 mm**. This dimension is slightly larger than the calculated minimum required by the strength condition and provides additional margin while maintaining a relatively compact design. As a final check, I substituted the 2 mm thickness into the maximum stress equation and obtained a maximum stress of approximately **14.06 N/mm²**, which is below the allowable stress of **15.06 N/mm²**. This confirms that the selected 2 mm thickness satisfies the strength requirement. 
+Based on these calculations, I selected a final thickness of 2 mm. This dimension is slightly larger than the calculated minimum required by the strength condition and provides additional margin while maintaining a relatively compact design. As a final check, I substituted the 2 mm thickness into the maximum stress equation and obtained a maximum stress of approximately 14.06 N/mm², which is below the allowable stress of 15.06 N/mm². While the plate is very thin, when being PLA it gets close to the failure point, In future research, I would add some supports and make this plate thicker. 
+
 ![Feature1](A4Ft2.PNG)
+
+## Isometric Design
+
+I used the values I discovered using my calculations to make a hand-drawn isometric drawing with all of the measurements and holes from the motor mount.
+
+![Iso](A4ISOdraw.PNG)
+
 ## Analyze
 
 
