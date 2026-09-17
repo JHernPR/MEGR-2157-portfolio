@@ -7,9 +7,6 @@ To complete the design, I used the equations and design methods provided during 
 
 After determining the required dimensions through the analytical calculations, I created the motor mount in SolidWorks. The CAD model was then used to verify the dimensions and evaluate whether the design met the required stress and deflection criteria. Comparing the calculated results with the SolidWorks results allowed me to verify my design and make sure the final motor mount satisfied the assignment requirements.
 
-## Research
-
-
 
 ## Feature 1
 Feature One serves as the base to which the motor will be bolted. The main design consideration for this feature was determining the minimum width (b), required to support the applied 300 N load while satisfying both the strength and stiffness requirements. I selected a length of 25 mm, which is greater than the motor’s 22 mm diameter, and a height of 30 mm. The remaining unknown dimension was therefore the width (b). 
@@ -62,11 +59,18 @@ The next step was to cut the holes where the shaft would go through, along with 
 ![faraway](A43rdcut.PNG)
 ![veryfar](A44thcut.PNG)
 ![Palpatine](A4Part.PNG)
-## Analyze
+
+## 2157 Engineering Drawing
+
+Once the model was fully defined and completed, my next objective was to create an engineering drawing that followed ASME standards. The drawing includes four primary views: an isometric view in the upper-right corner, along with the top, front, and side views. These views provide different perspectives of the part and clearly communicate its overall geometry and features. Proper dimensioning is also an important part of the drawing because it provides the exact measurements needed to manufacture the part. By following ASME drawing standards and including the necessary dimensions, the drawing provides a clear set of instructions that allows the part to be manufactured accurately and consistently.
+
+![Doit](A4Draw.PNG)
 
 
-## Decide
+## Lesson learned
 
+The biggest lesson I learned from this assignment was the importance of selecting the appropriate material and understanding how the geometry of a structure can be modified to meet the required design conditions. Initially, solving for stress and deflection was confusing, but I was able to relate the concepts to what I had previously learned in Mechanics of Solids. This helped me better understand how the equations applied to the design and how changing a specific dimension could affect the overall performance of the part. Another key takeaway was the importance of carefully manipulating equations when solving for an unknown variable and maintaining consistent units throughout the calculations. Small errors in rearranging an equation or using incorrect units can significantly affect the final result, so checking each step of the calculation is an important part of the engineering design process.
 
-## Communicate
+## CAD File
+![A4JHA](Part1.SLDPRT)
 
