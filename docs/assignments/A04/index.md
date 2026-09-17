@@ -72,5 +72,5 @@ Once the model was fully defined and completed, my next objective was to create 
 The biggest lesson I learned from this assignment was the importance of selecting the appropriate material and understanding how the geometry of a structure can be modified to meet the required design conditions. Initially, solving for stress and deflection was confusing, but I was able to relate the concepts to what I had previously learned in Mechanics of Solids. This helped me better understand how the equations applied to the design and how changing a specific dimension could affect the overall performance of the part. Another key takeaway was the importance of carefully manipulating equations when solving for an unknown variable and maintaining consistent units throughout the calculations. Small errors in rearranging an equation or using incorrect units can significantly affect the final result, so checking each step of the calculation is an important part of the engineering design process.
 
 ## CAD File
-[A4JHA](Part1.SLDPRT)
+[A4JHA](A4JHAPart.SLDPRT)
 
