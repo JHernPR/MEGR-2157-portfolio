@@ -41,6 +41,19 @@ I used the values I discovered using my calculations to make a hand-drawn isomet
 
 ![Iso](A4ISOdraw.PNG)
 
+## CAD Models
+
+I started off by putting all of my measurements in the parametric equation table; that way, all of the measurements have a reference for where they came from and not just some random measurement.
+
+![CAD](A4para.PNG)
+
+To start off, while I analyzed two features, I made a simple L-shaped bracket and started establishing variables to fully define the shape.
+
+![hellothere](A2pt1.PNG)
+
+After that, I extruded the bracket to my already established thickness that I calculated in my previous work.
+
+![generalkenobi](A4Thickness.PNG)
 ## Analyze
 
 
