@@ -56,27 +56,37 @@ Part E focused on determining the required height of the link. The width of the 
 
 **Part A**
 
+For Part A, I determined the required diameter of the circular feature based on the stiffness (deflection) constraint rather than stress. Using the same 600 lbf load, a safety factor of 4, a modulus of elasticity of 29,000,000 psi, and the given deflection limit of 0.005 in, I assumed a length of 1 in for the feature. Applying the beam deflection equation and solving for the diameter, I found a required diameter of approximately 0.5790 in, corresponding to a radius of about 0.2895 in. This value was larger than the diameter required by the stress analysis, meaning stiffness governed the design for this feature.
 
 ![A1](PartA2.PNG)
 
 **Part B**
 
+For Part B, I found the required thickness of the feature using the stiffness criterion. I used the 600 lbf load, a safety factor of 4, E = 29,000,000 psi, and the 0.005 in deflection limit, assuming a length of 1.5 in and a width equal to the diameter found in Part A (0.5790 in). Solving for the cross-sectional area needed to satisfy the deflection requirement gave 0.02482 in², which resulted in a required thickness of approximately 0.04288 in.
+
 ![B1](PartB2.PNG)
 
 **Part C**
 
+For Part C, I calculated the required height of the feature based on stiffness, assuming a width of 2.4964 in and a thickness of 1 in. Using the same load, safety factor, and material properties as before, along with the 0.005 in deflection limit, I solved for the required moment of inertia, which came out to 2.861 in⁴. Converting this to a height using the rectangular moment of inertia relationship gave a required height of approximately 2.396 in.
 
 ![C1](PartC2.PNG)
 
 **Part D**
 
-
+For Part D, the goal was to find the required width of the feature for a given height of 1.499 in, using the deflection-based approach. With the 600 lbf load, safety factor of 4, E = 29,000,000 psi, and a deflection limit of 0.005 in, I calculated the required cross-sectional area to be 0.02481 in². Dividing by the given height yielded a required width of approximately 0.0166 in.
 
 ![D1](PartD2.PNG)
 
 **Part E**
 
+For Part E, I determined the required height of the link based on stiffness, given a width of 0.9992 in. Using the same loading and material properties, along with the 0.005 in deflection constraint, I solved for the required moment of inertia, obtaining 0.01651 in⁴. Converting this to a height using the moment of inertia relationship gave a required height of approximately 0.03780 in.
+
 ![E1](PartE2.PNG)
+
+# Multiview Sketches
+
+![Sketch](MultiviewSketches.PNG)
 
 
 ## Decide
