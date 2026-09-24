@@ -74,7 +74,7 @@ For Part C, I calculated the required height of the feature based on stiffness, 
 
 **Part D**
 
-For Part D, the goal was to find the required width of the feature for a given height of 1.499 in, using the deflection-based approach. With the 600 lbf load, safety factor of 4, E = 29,000,000 psi, and a deflection limit of 0.005 in, I calculated the required cross-sectional area to be 0.02481 in². Dividing by the given height yielded a required width of approximately 0.0166 in.
+For Part D, the goal was to find the required width of the feature for a given height of 1.499 in, using the deflection-based approach. With the 600 lbf load, a safety factor of 4, E = 29,000,000 psi, and a deflection limit of 0.005 in, I calculated the required cross-sectional area to be 0.02481 in². Dividing by the given height yielded a required width of approximately 0.0166 in.
 
 ![D1](PartD2.PNG)
 
@@ -88,9 +88,30 @@ For Part E, I determined the required height of the link based on stiffness, giv
 
 ![Sketch](MultiviewSketches.PNG)
 
+## Lesson Learned 
 
-## Decide
+I learned how I can determine the needed size for my fixtures just based on given forces and certain restrictions. Despite this task being time-consuming, I feel that not only do they teach me the fundamentals of designing but I also use it as practice for other classes such as solid mechanics.
+
+For Feature A (the pin), stress analysis required a diameter of 0.879 in, while the stiffness analysis (0.005 in deflection limit) only required 0.579 in. Stress governed by a wide margin — about 0.30 in, or roughly 52% larger than the stiffness requirement — so the deflection constraint was not the limiting factor for this feature; strength was. This wasn't a near-tie, which told me the pin needed to be sized for load-carrying capacity, not rigidity
+
+One clear case of a value carrying forward: in Part B of the stiffness analysis, I assumed the width W equal to d_A2 — that is, the diameter I calculated for Feature A in the stiffness analysis (0.579 in) — rather than the diameter I actually specified for Feature A after comparing stress and stiffness (0.879 in, since stress governed). That means Feature B's thickness calculation was built on the non-governing (smaller) version of Feature A's dimension instead of the final chosen geometry.
+
+One key assumption I made early on (Part A, stress analysis) was that average shear would not govern failure — I treated Feature A as a distributed load across the beam and assumed shear stress alone wouldn't cause failure, letting me use a bending-based section modulus approach instead of a full combined-stress check.
 
 
-## Communicate
 
+# 2157 Fits
+
+![Fits](Fits.PNG)
+
+I selected RC7 — Free Running Fit, as it is the standard general-purpose class for moderate-speed, moderate-load applications without requiring high-precision manufacturing tolerances. This class balances enough clearance to prevent binding with a tolerance grade that's practical and cost-effective to produce.
+
+Using the RC tolerance table from the Machinery's Handbook P653 for the 0.40–0.71 in size range under Class RC7, I applied the listed hole (H9) and shaft (e8) tolerance limits, in thousandths of an inch, to the nominal 0.5790 in diameter to establish the final upper and lower bounds for both the hole and the shaft.
+
+![RC7](.5790Callout.PNG)
+
+Within the FN classes, FN1 through FN5 range from lightest to heaviest interference. Since the requirement specifies only light assembly pressure, I selected Class FN1 — Light Drive Fit, which is the lightest interference class, intended for assemblies that can be pressed together with minimal force (often by hand or with light arbor press force) while still providing enough interference to prevent slippage in light-load, non-critical applications.
+
+Referencing the Machinery's Handbook for both of these holes, I would drill them and then ream them for greater accuracy, which will allow proper fitting. It is reliable, cost-effective, and time-efficient.
+
+![FN1](FN1Info.PNG)
