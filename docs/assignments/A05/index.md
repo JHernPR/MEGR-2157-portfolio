@@ -3,7 +3,7 @@
 ## Objective
 Objectives:
 - Conduct stress analysis to determine appropriate dimensions for structural features.
-- Generate free-body diagrams (FBDs) to visualize forces and constraints for each feature.\
+- Generate free-body diagrams (FBDs) to visualize forces and constraints for each feature.
 - Identify and document known and unknown variables, assumptions, and algebraic models for stress calculations.
 - Perform stiffness analysis to establish minimum required dimensions based on deflection constraints.
 - Compare stress and stiffness analyses to ensure structural integrity and compliance with given constraints.
@@ -22,32 +22,61 @@ For my project, I chose a 600 lbf force on all features; Feature A's force doubl
 
 **Part A**
 
-For Part A, I began by identifying the forces acting on the feature and creating a free-body diagram to establish the loading condition. Because of the way the strap is routed around the pin, this feature experiences a 1200 lbf load. I then used the material properties of ASTM A36 steel and the required safety factor of 4 to determine the allowable stress. 
+For Part A, I began by creating a free-body diagram to identify the loading on the feature. The applied force was 600 lbf, but because of the way the strap is routed around the pin, the feature experiences a doubled load of 1200 lbf. I assumed that the average shear would not cause the feature to fail and treated the feature as a distributed load across the beam.
+
+Using the given safety factor of 4 and the yield strength of 36,000 psi for ASTM A36 steel, I calculated the required section properties. The resulting value of z was 0.0667 in³. I then used the relationship between the section modulus and the radius to determine a radius of approximately 0.4395 in, giving a required diameter of approximately 0.879 in. This analysis established the required size of the circular feature based on the applied loading and material strength.
 ![A1](PartA1.PNG)
 
 **Part B**
 
-For Part B, I analyzed the feature using the same general design process. I first identified the loading and constraints using a free-body diagram. The applied forces were then used to develop the equations needed to determine the required dimensions.
+For Part B, I determined the required thickness of the bracket feature using the 600 lbf applied load. The material properties and safety factor remained the same as in Part A, with ASTM A36 steel, a yield strength of 36,000 psi, and a safety factor of 4. The resulting thickness was approximately 0.0759 in. This dimension provided the minimum cross-sectional area needed to support the applied load while satisfying the stress requirement. 
 
 ![B1](PartB1.PNG)
 
 **Part C**
 
-Part C required another analysis of the bracket geometry to determine the dimensions necessary to safely support the applied loading. I used the known material properties and safety factor to establish the allowable stress before performing the stress calculation.
+For Part C, I continued the stress analysis by determining the required cross-sectional area for another structural feature of the bracket. The applied load was again 600 lbf, with a safety factor of 4 and ASTM A36 steel as the selected material. The calculated dimension was approximately 0.0595 in. This established the minimum size required for the feature based on the applied loading and allowable stress.
 
-I then compared the stress-based dimension with the dimension required from the stiffness analysis. This comparison helped determine which requirement controlled the final geometry. The resulting dimensions were incorporated into the CAD model.
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ![C1](PartC1.PNG)
 
-**Part Caaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa**
+**Part D**
 
-For Part D, I continued the same process by developing a free-body diagram and identifying the relevant forces, dimensions, and constraints. The calculated loading was used to determine the required structural dimensions while maintaining the specified safety factor.
+For Part D, the goal was to determine the required width of the feature while the height was given as 1.499 in. I again used the 600 lbf loading, a safety factor of 4, and the 36,000 psi yield strength of ASTM A36 steel. The allowable stress calculation resulted in a required cross-sectional area of approximately 0.0667 in². This resulted in a minimum required width of approximately 0.0445 in. This dimension provides the necessary cross-sectional area for the feature to withstand the applied load.
 
-After completing the stress analysis, I checked the design for the required stiffness. This ensured that the final geometry was not only strong enough to prevent failure but also stiff enough to remain within the specified deflection limit.
 ![D1](PartD1.PNG)
 
 **Part E**
+
+Part E focused on determining the required height of the link. The width of the link was given as 0.9992 in, while the height was the unknown dimension. The same 600 lbf loading, safety factor of 4, and ASTM A36 steel material properties were used. First, I calculated the required cross-sectional area as approximately 0.0667 in². This analysis provided the structural dimensions needed for the link while also establishing the geometry required for the running/sliding fit specified by the project.
+
 ![E1](PartE5.PNG)
+
+# Part 2: Stiffness Analysis
+
+
+**Part A**
+
+
+![A1](PartA2.PNG)
+
+**Part B**
+
+![B1](PartB2.PNG)
+
+**Part C**
+
+
+![C1](PartC2.PNG)
+
+**Part D**
+
+
+
+![D1](PartD2.PNG)
+
+**Part E**
+
+![E1](PartE2.PNG)
 
 
 ## Decide
