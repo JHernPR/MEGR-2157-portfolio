@@ -17,9 +17,9 @@ For my design, I went with the same structure that was given in A5, started with
 ![P5](Part5.PNG)
 ![apple](DefinedPart.PNG)
 
-## Drawing
+## Drawing 
 
-![Drawing]
+![Drawing](A6drawing.PNG)
 
 ## Reflection 
 
