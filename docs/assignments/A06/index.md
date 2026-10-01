@@ -21,10 +21,20 @@ For my design, I went with the same structure that was given in A5, started with
 
 ![Drawing](A6drawing.PNG)
 
+## 2157 Section
+This is my work for the link using dimensions from last week. 
+![Link](Bracket.PNG)
+![Linkeq](Linkequations.PNG)
+![Bracket]
+
 ## Reflection 
 
 Propagating a design change. I later found an error in the A5 calculation: I used the wrong formulas. This affected Parts C and E. After correcting the input parameter, Part E changed from .0667in to .6481in. Features that referenced that dimension, such as the heigh, updated automatically. The lesson is that a model only responds as completely as its relationships are defined. Any feature I dimensioned independently of the driving equation became a place where the error could survive.
 
 Tolerance as a consequence of function. On the drawing, I applied [tight tolerance, e.g., ±.005] to the pin bore because it is a mating function where clearance directly determines whether the parts assemble and move as intended. I applied [loose tolerance, e.g., ±.02] to [feature, e.g., the overall bracket length] because it is a non-critical feature that does not mate with another part, so variation there does not affect function. Holding a non-critical feature to a tight tolerance would force slower machining, additional finishing operations, tighter inspection, and a higher scrap rate, raising cost without improving performance. Tolerance should be assigned feature by feature according to function.
+
+While working on the link, I learned how important it is to ensure part-to-part compatibility through proper tolerancing. Tolerances help ensure that mating parts fit together as intended and can function properly without excessive interference or looseness. I also learned that dimensioning and tolerancing communicate the design intent and functional requirements of a part. A drawing should provide enough information for a machinist to manufacture the part accurately while avoiding unnecessary or confusing dimensions. Clear and properly applied dimensions and tolerances reduce the potential for manufacturing errors and help ensure that the finished part meets the intended design requirements.
+
+
 
 
