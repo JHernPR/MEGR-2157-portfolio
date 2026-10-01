@@ -1,9 +1,10 @@
 # A6 – Bracket Drawing (Drawings Part 1)
 
 ## Objective
-The objective of this assignment was to advance the parametric design of the bracket initiated in the previous project by incorporating precision sliding fits and generating a fully detailed engineering drawing. This phase focused on translating calculated stress and tolerance criteria from engineering references into the CAD model, ensuring that the final documentation accurately represents the functional geometry, assembly interfaces, and standard tolerance blocks required for manufacturing.
+The objective of this assignment was to advance the parametric design of the bracket developed in the previous project by incorporating precision sliding fits and creating a fully detailed engineering drawing. The design process focused on applying the stress and tolerance requirements determined in A5 to the CAD model. The final model and drawing were developed to accurately represent the functional geometry, assembly interfaces, dimensions, and tolerances required for manufacturing.
 
 ## Parametric Design
+
 All of the dimensions were gathered from A5 using the stress calculations. Parts C and E will be different because I realized a crucial mistake and fixed it in my actual part. 
 
 ![Global](Parametric.PNG)
@@ -35,6 +36,13 @@ Tolerance as a consequence of function. On the drawing, I applied [tight toleran
 
 While working on the link, I learned how important it is to ensure part-to-part compatibility through proper tolerancing. Tolerances help ensure that mating parts fit together as intended and can function properly without excessive interference or looseness. I also learned that dimensioning and tolerancing communicate the design intent and functional requirements of a part. A drawing should provide enough information for a machinist to manufacture the part accurately while avoiding unnecessary or confusing dimensions. Clear and properly applied dimensions and tolerances reduce the potential for manufacturing errors and help ensure that the finished part meets the intended design requirements.
 
+## CAD Files & Drawings
 
+![A6Part](A6JHA.SLDPRT)
 
+![Link](BracketPiece.PNG.SLDPRT)
+
+![Link Drawing](BracketPiece.PNG.SLDDRW)
+
+![A6Drawing](A6JHA.SLDDRW)
 
