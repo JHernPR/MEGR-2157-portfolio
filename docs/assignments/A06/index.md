@@ -19,15 +19,12 @@ For my design, I went with the same structure that was given in A5, started with
 
 ## Drawing
 
-![Drawing](A6drawing.PNG)
+![Drawing]
 
 ## Reflection 
 
-## Analyze
+One engineering lesson learned from this assignment was the importance of connecting the analytical design calculations directly to the parametric CAD model. The strength calculation from A5 was used to determine the required dimension of the bracket based on the allowable stress. Instead of treating the calculated dimension as an isolated value, the dimension was incorporated into the parametric model so that it controlled the corresponding feature of the bracket. This allowed the CAD model to remain connected to the engineering design requirements.
 
+During the assignment, I also discovered an error in the original design that affected Parts C and E. After identifying the mistake, I corrected the calculation and updated the corresponding dimensions in the model. Because the model was parametrically defined, the related geometry could respond to the updated dimension rather than requiring the entire bracket to be manually remodeled. This demonstrated the value of using relationships and parameters in CAD: when an engineering requirement changes, the model can adapt while maintaining the intended design relationships.
 
-## Decide
-
-
-## Communicate
 
