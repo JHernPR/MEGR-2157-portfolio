@@ -25,7 +25,7 @@ For my design, I went with the same structure that was given in A5, started with
 This is my work for the link using dimensions from last week. 
 ![Link](Bracket.PNG)
 ![Linkeq](Linkequations.PNG)
-![Bracket]
+![Bracket](Bracketdrawing.PNG)
 
 ## Reflection 
 
