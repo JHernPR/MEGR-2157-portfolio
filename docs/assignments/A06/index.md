@@ -1,7 +1,7 @@
 # A6 – Bracket Drawing (Drawings Part 1)
 
 ## Objective
-The objective of this project was to continue from last week's project using the bracket. This time, accounting for fits, along with making an engineering drawing that accurately represents your bracket and displays proper tolerances found from the book.
+The objective of this assignment was to advance the parametric design of the bracket initiated in the previous project by incorporating precision sliding fits and generating a fully detailed engineering drawing. This phase focused on translating calculated stress and tolerance criteria from engineering references into the CAD model, ensuring that the final documentation accurately represents the functional geometry, assembly interfaces, and standard tolerance blocks required for manufacturing.
 
 ## Parametric Design
 All of the dimensions were gathered from A5 using the stress calculations. Parts C and E will be different because I realized a crucial mistake and fixed it in my actual part. 
