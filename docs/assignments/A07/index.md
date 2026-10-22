@@ -124,11 +124,11 @@ Throughout this finite element analysis assignment, the bracket design underwent
 
 ## Part files
 
-![Original](Design1JHA.SLDPRT)
+[Orginal](Design1JHA.SLDPRT)
 
-![2nd version](Design2JHA.SLDPRT)
+[Rev2](Design2JHA.SLDPRT)
 
-![3rd version](Design3JHA.SLDPRT)
+[Rev 3](Design3JHA.SLDPRT)
 
 
 ## 2157 Only
