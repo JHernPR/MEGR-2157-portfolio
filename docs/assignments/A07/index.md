@@ -149,4 +149,13 @@ Throughout this finite element analysis assignment, the bracket design underwent
 ![DispH](P1DISPHIGH.PNG)
 ![FOS1H](P1FOSHIGH.PNG)
 
-
+| Link Design | Coarse | Default | Fine |
+| :--- | :--- | :--- | :--- |
+| Max Stress (N/m^2) | 2.382e + 07 | 1.516e + 07 | 1.417e + 07 |
+| Max Deflection (mm) | 1.000e - 30 | 1.516e - 02 | 1.000e - 30 |
+| Mass (lb) | 0.20 | 0.20 | 0.20 |
+| Min FOS | 11.4 | 16.5 | 17.0 |
+| # Elements | 1338 | 8367 | 64941 |
+| Stress % | | 36.4% | 6.5% |
+| Deflection % | | 0.0% | 0.0% |
+| FOS % | | 44.7% | 3.0% |
