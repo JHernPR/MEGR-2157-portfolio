@@ -116,3 +116,19 @@ Second Design
 | Deflection % | | 1.3% | 1.6% |
 | FOS % | | 0.0% | 15.2% |
 
+## Conclusion
+
+Throughout this finite element analysis assignment, the bracket design underwent a rigorous iterative optimization process consisting of both inner-loop mesh convergence validations and outer-loop geometric modifications. Starting from the initial concept design (Design 1), high stress concentrations near the fillet regions resulted in a minimum factor of safety well below allowable limits. Through subsequent geometric improvements in Design 2 and Design 3, material was successfully redistributed to optimize the structure for enhanced strength and stiffness/ By the final iteration, the mesh convergence evaluations successfully dropped below the required 7% threshold, and the minimum factor of safety increased to a safe operating level between 3.9 and 4.6. This iterative process provided practical insights into how element size selection, computational solution time, and geometric profiling directly influence FEA accuracy and component performance.
+
+## Part files
+
+![Original](Design1JHA.SLDPRT)
+
+![2nd version](Design2JHA.SLDPRT)
+
+![3rd version](Design3JHA.SLDPRT)
+
+
+## 2157 Only
+
+
