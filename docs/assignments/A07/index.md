@@ -58,7 +58,7 @@ Your task is simply to create a high-stiffness, high-strength, and lightweight c
 | # Elements | 1425 | 9690 | 64165 |
 | Stress % | | 15.2% | 11.0% |
 
-Due to the results not converging, the finest mesh simulation will be used as stated in the instructions.
+Because the results did not converge, we will use the finest mesh simulation, as stated in the instructions.
 
 ## Second Design
 
@@ -116,6 +116,8 @@ Second Design
 | Deflection % | | 1.3% | 1.6% |
 | FOS % | | 0.0% | 15.2% |
 
+After modifying the part, I achieved a deflection below 7%.
+
 ## Conclusion
 
 Throughout this finite element analysis assignment, the bracket design underwent a rigorous iterative optimization process consisting of both inner-loop mesh convergence validations and outer-loop geometric modifications. Starting from the initial concept design (Design 1), high stress concentrations near the fillet regions resulted in a minimum factor of safety well below allowable limits. Through subsequent geometric improvements in Design 2 and Design 3, material was successfully redistributed to optimize the structure for enhanced strength and stiffness/ By the final iteration, the mesh convergence evaluations successfully dropped below the required 7% threshold, and the minimum factor of safety increased to a safe operating level between 3.9 and 4.6. This iterative process provided practical insights into how element size selection, computational solution time, and geometric profiling directly influence FEA accuracy and component performance.
@@ -130,5 +132,21 @@ Throughout this finite element analysis assignment, the bracket design underwent
 
 
 ## 2157 Only
+
+## Third design
+
+![stressL](P1STRESSLOW.PNG)
+![DispL](P1DISPLOW.PNG)
+![FOSL](P1FOSLOW.PNG)
+
+### Mesh 2: Mid
+![stressM](P1STRESSMID.PNG)
+![DispM](P1DISPMID.PNG)
+![FOSM](P1FOSMID.PNG)
+
+### Mesh 3: Fine
+![stressH](P1STRESSHIGH.PNG)
+![DispH](P1DISPHIGH.PNG)
+![FOS1H](P1FOSHIGH.PNG)
 
 
