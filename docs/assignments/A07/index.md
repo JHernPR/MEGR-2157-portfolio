@@ -49,3 +49,14 @@ Your task is simply to create a high-stiffness, high-strength, and lightweight c
 ![FOS1H](D1FOSHIGH.PNG)
 
 
+| Design 1 | Coarse | Default | Fine |
+| :--- | :--- | :--- | :--- |
+| Max Stress (N/m^2) | 1.841e + 09 | 2.172e + 09 | 2.442e + 09 |
+| Max Deflection (mm) | 5.192 | 5.745 | 1.000e -30 |
+| Mass (lb) | 1.07 | 1.07 | 1.07 |
+| Min FOS | .1358 | .1151 | .1358 |
+| # Elements | 1425 | 9690 | 64165 |
+| Stress % | | 15.2% | 11.0% |
+
+Due to the results not converging, the finest mesh simulation will be used as stated in the instructions.
+
