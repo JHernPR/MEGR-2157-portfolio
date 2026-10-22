@@ -38,11 +38,11 @@ While working on the link, I learned how important proper tolerancing is for ens
 
 ## CAD Files & Drawings
 
-![A6Part](A6JHA.SLDPRT)
+[A6Part](A6JHA.SLDPRT)
 
-![Link](BracketPiece.PNG.SLDPRT)
+[Link](BracketPiece.PNG.SLDPRT)
 
-![Link Drawing](BracketPiece.PNG.SLDDRW)
+[Link Drawing](BracketPiece.PNG.SLDDRW)
 
-![A6Drawing](A6JHA.SLDDRW)
+[A6Drawing](A6JHA.SLDDRW)
 
