@@ -62,4 +62,19 @@ Due to the results not converging, the finest mesh simulation will be used as st
 
 ## Second Design
 
+### Mesh 1: Coarse
+
+![stressL](D2STRESSLOW.PNG)
+![DispL](D2DISPLOW.PNG)
+![FOSL](D2FOSLOW.PNG)
+
+### Mesh 2: Mid
+![stressM](D2STRESSMIDDLE.PNG)
+![DispM](D2DISPMIDDLE.PNG)
+![FOSM](D2FOSMIDDLE.PNG)
+
+### Mesh 3: Fine
+![stressH](D2STRESSHIGH.PNG)
+![DispH](D2DISPHIGH.PNG)
+![FOS1H](D2FOSHIGH.PNG)
 
