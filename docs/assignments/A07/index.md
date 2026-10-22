@@ -60,3 +60,6 @@ Your task is simply to create a high-stiffness, high-strength, and lightweight c
 
 Due to the results not converging, the finest mesh simulation will be used as stated in the instructions.
 
+## Second Design
+
+
