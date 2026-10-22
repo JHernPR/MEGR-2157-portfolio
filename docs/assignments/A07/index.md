@@ -105,4 +105,14 @@ Second Design
 ![DispH](D3DISPHIGH.PNG)
 ![FOS1H](D3FOSHIGH.PNG)
 
+| Third Design | Coarse | Default | Fine |
+| :--- | :--- | :--- | :--- |
+| Max Stress (N/m^2) | 5.869e + 07 | 5.480e + 07 | 5.172e + 07 |
+| Max Deflection (mm) | 1.810e - 01 | 1.786e - 01 | 1.814e - 01 |
+| Mass (lb) | 1.12 | 1.12 | 1.12 |
+| Min FOS | 4.6 | 4.6 | 3.9 |
+| # Elements | 1425 | 9690 | 64165 |
+| Stress % | | 6.6% | 5.6% |
+| Deflection % | | 1.3% | 1.6% |
+| FOS % | | 0.0% | 15.2% |
 
