@@ -78,3 +78,14 @@ Due to the results not converging, the finest mesh simulation will be used as st
 ![DispH](D2DISPHIGH.PNG)
 ![FOS1H](D2FOSHIGH.PNG)
 
+Second Design
+
+| Second Design | Coarse | Default | Fine |
+| :--- | :--- | :--- | :--- |
+| Max Stress (N/m^2) | 1.741e + 09 | 2.157e + 09 | 2.440e + 09 |
+| Max Deflection (mm) | 0.331 | 0.401 | 0.444 |
+| Mass (lb) | 1.05 | 1.05 | 1.05 |
+| Min FOS | 0.064 | 0.057 | 0.044 |
+| # Elements | 1425 | 9690 | 64165 |
+| Stress % | | 19.3% | 13.1% |
+
