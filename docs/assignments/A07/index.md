@@ -89,3 +89,20 @@ Second Design
 | # Elements | 1425 | 9690 | 64165 |
 | Stress % | | 19.3% | 13.1% |
 
+## Third design
+
+![stressL](D3STRESSLOW.PNG)
+![DispL](D3DISPLOW.PNG)
+![FOSL](D3FOSLOW.PNG)
+
+### Mesh 2: Mid
+![stressM](D3STRESSMIDDLE.PNG)
+![DispM](D3DISPMIDDLE.PNG)
+![FOSM](D3FOSMIDDLE.PNG)
+
+### Mesh 3: Fine
+![stressH](D3STRESSHIGH.PNG)
+![DispH](D3DISPHIGH.PNG)
+![FOS1H](D3FOSHIGH.PNG)
+
+
