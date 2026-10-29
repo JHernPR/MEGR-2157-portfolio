@@ -76,7 +76,7 @@ Throughout this assignment, several key engineering lessons were learned regardi
 ## 2157
 ![box](Box.PNG)
 ![Lid](Lids.PNG)
-![Short](short.PNG)
+![Short](Short.PNG)
 ![PWR](Input.PNG)
 ![Dry](dry.PNG)
 
