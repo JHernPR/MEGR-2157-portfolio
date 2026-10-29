@@ -46,7 +46,7 @@ For my gearbox design, I chose to go with a simple box that held both gears usin
 ![box](Drawing.PNG)
 ## Modeling & CAD
 
-[Parametric](Para.PNG)
+![Parametric](Para.PNG)
 ![solid1](Solid1.PNG)
 ![solid2](Solid2.PNG)
 ![Extrude](Extrude.PNG)
