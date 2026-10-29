@@ -15,11 +15,11 @@
 
 Description:
 
-Design a gearbox that can be assembled and disassembled. The spur gears have a gear ratio of 24:9 and are listed in the resource section. The output gear torque and speed are to be 1.25 in-lbf and 1100 rpm, respectively. The input (pinion,power-transmission) and output (gear, short shaft) shaft diameters are .125 and .25 inches respectively and each have a length of 1 inch. Use the appropriate equations in the Machinery’s Handbook for empirical units. The critical features of the gearbox include the shafts and the journal bearings.
+Design a gearbox that can be assembled and disassembled. The spur gears have a gear ratio of 24:9 and are listed in the resource section. The output gear torque and speed are to be 1.25 in-lbf and 1100 rpm, respectively. The input (pinion,power-transmission) and output (gear, short shaft) shaft diameters are .125 and .25 inches, respectively, and each has a length of 1 inch. Use the appropriate equations in the Machinery’s Handbook for empirical units. The critical features of the gearbox include the shafts and the journal bearings.
 
 ## Input Shaft Design
 
-This analysis verified that the baseline 0.125-inch diameter and 1in length of the input (power-transmission) shaft are structurally sufficient to withstand the applied operating loads. Accounting for the 24:9 gear ratio, the input speed and torque were scaled to 2933.33 RPM and 0.46875 in · lbf, respectively. After formulating the free-body diagram and modeling the torsional shear stress equations from the Machinery's Handbook, the numerical shear stress was evaluated at 1222.30 psi, well below the allowable yield strength of 4000 psi. Furthermore, solving for the minimum required diameter yielded approximately 0.0841 in (compared to the 0.125 in baseline), confirming that the initial dimensions are more than sufficient and require no modification.
+This analysis verified that the baseline 0.125-inch diameter and 1 in length of the input (power-transmission) shaft are structurally sufficient to withstand the applied operating loads. Accounting for the 24:9 gear ratio, the input speed and torque were scaled to 2933.33 RPM and 0.46875 in · lbf, respectively. After formulating the free-body diagram and modeling the torsional shear stress equations from the Machinery's Handbook, the numerical shear stress was evaluated at 1222.30 psi, well below the allowable yield strength of 4000 psi. Furthermore, solving for the minimum required diameter yielded approximately 0.0841 in (compared to the 0.125 in baseline), confirming that the initial dimensions are more than sufficient and require no modification.
 
 ![hellothere](PWRSHAFT.PNG)
 
@@ -31,10 +31,12 @@ For the output (short) shaft, the design process mirrored the input analysis to 
 
 ## Design Journal Bearings.
 
+The journal bearing analysis was conducted using the input (power-transmission) shaft parameters as a conservative design approach, since its operating values yield higher speeds and loads. Using a bearing length of 0.375 in and a 20 deg pressure angle, the tangential and radial forces were calculated to determine the surface velocity of 95.99 ft/min and a projected bearing pressure of 19.41 psi. Combining these yielded a PV rating of $1863.17 psi*ft/min, leading to the selection of a dry-running MDS-filled nylon sleeve bearing referenced from the Machinery's Handbook. 
 
 ![yep](BearingMaterial.PNG)
 
 ## Journal Bearing Thickness
+To verify structural integrity against internal loading, the wall thickness of the journal bearing was calculated using a cylindrical hoop stress model. With an allowable material pressure limit of 1000 psi for nylon, an inner radius of 0.0625 in, and the operating pressure of 19.41 psi, the algebraic equation was solved to find a minimum required wall thickness of 0.00121 in. 
 
 ![si](BearingThickness.PNG)
 
