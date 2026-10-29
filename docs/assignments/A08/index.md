@@ -31,7 +31,7 @@ For the output (short) shaft, the design process mirrored the input analysis to 
 
 ## Design Journal Bearings.
 
-The journal bearing analysis was conducted using the input (power-transmission) shaft parameters as a conservative design approach, since its operating values yield higher speeds and loads. Using a bearing length of 0.375 in and a 20 deg pressure angle, the tangential and radial forces were calculated to determine the surface velocity of 95.99 ft/min and a projected bearing pressure of 19.41 psi. Combining these yielded a PV rating of $1863.17 psi*ft/min, leading to the selection of a dry-running MDS-filled nylon sleeve bearing referenced from the Machinery's Handbook. 
+The journal bearing analysis was conducted using the input (power-transmission) shaft parameters as a conservative design approach, since its operating values yield higher speeds and loads. Using a bearing length of 0.375 in and a 20 deg pressure angle, the tangential and radial forces were calculated to determine the surface velocity of 95.99 ft/min and a projected bearing pressure of 19.41 psi. Combining these yielded a PV rating of 1863.17 psi*ft/min, leading to the selection of a dry-running MDS-filled nylon sleeve bearing referenced from the Machinery's Handbook. 
 
 ![yep](BearingMaterial.PNG)
 
@@ -42,11 +42,34 @@ To verify structural integrity against internal loading, the wall thickness of t
 
 ## Gearbox Hand-drawn Design
 
+For my gearbox design, I chose to go with a simple box that held both gears using the shaft and cutting holes both in the box and the plate, and they are to be held by screws.
+![box](Drawing.PNG)
 ## Modeling & CAD
 
+![solid1](Solid1.PNG)
+![solid2](Solid2.PNG)
+![Extrude](Extrude.PNG)
+![Holes](Holes.PNG)
+![Final](FinalAssembly.PNG)
+![Exposed](ExposedGearbox.PNG)
+
+
+## Reflection
+
+Throughout this assignment, several key engineering lessons were learned regarding systematic mechanical design and documentation. Maintaining strict alignment between empirical units in the Machinery's Handbook and calculated parameters proved essential for accurate stress and power verification. Properly accounting for the 24:9 gear ratio was critical when translating output torque and speed specifications back to the input power shaft. Adopting a conservative design approach by evaluating journal bearing PV ratings and pressures using the more demanding input shaft operating parameters established a robust baseline for both bushings. Finally, thoroughly documenting all intermediate calculations, free-body diagrams, and component dimensions significantly streamlined the subsequent transition into parametric CAD assembly and multi-view drawing generation. One thing I wish to apply is just to start a little earlier but I enjoy the amount of time spent in SolidWorks generating and making parts based on my calculations.
 
 ## CAD FILES
-[ASSEMBLY]
+
+[Parametric](Para.PNG)
+
+[ASSEMBLY](GEARBOXASSEMBLY.SLDASM)
+
+[PWR Shaft](PWRshaft.SLDPRT)
+
+[Lid](Lid.SLDPRT)
+
+[Gearbox](Gearbox.SLDPRT)
+
 [Short Shaft](ShortShaft.SLDDRW)
 
 
