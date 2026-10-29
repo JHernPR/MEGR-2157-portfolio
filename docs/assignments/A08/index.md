@@ -42,3 +42,16 @@ For the output (short) shaft, the design process mirrored the input analysis to 
 
 ## Modeling & CAD
 
+
+## CAD FILES
+[ASSEMBLY]
+[Short Shaft](ShortShaft.SLDDRW)
+
+
+## 2157
+![box](Box.PNG)
+![Lid](Lids.PNG)
+![Short](short.PNG)
+![PWR](Input.PNG)
+![Dry](dry.PNG)
+
