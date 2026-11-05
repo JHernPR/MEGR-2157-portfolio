@@ -27,5 +27,10 @@ For part 3, I was tasked with designing the journal bearing out of sintered meta
 
 ## Frame Design
 
+For my frame, I based it on the given design.
+
 ![Design](Design.PNG)
 
+## Conclusion
+
+The assignment took me about 4 hours. Pulleys are a fundamental lesson that I personally learned a lot from, as I feel that knowing how to manipulate the formulas will be beneficial in the real world. I also gathered more information regarding how PV rating works and feel more confident about it. Knowing how to do the correct math, along with real-world common sense, made this assignment easier to do and understand. One more valuable lesson I gathered from this assignment was how important it is to do the right math so you can choose the correct material; that way, not only are you building a working fixture, but you can also manage cost appropriately.
