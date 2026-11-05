@@ -8,11 +8,11 @@ Design a pulley system to transfer power between two parallel axes separated by 
 
 ## Belt Design
 
-For part 1, I calculated the forces on both the tight and loose sides with no slippage. Calculate the diameter of the belt using the normal stress equation and yield strength. Calculate the belt's outer circumference, then select a suitable belt.
+For part 1, I calculated the forces on both the tight and loose sides with no slippage. Calculate the diameter of the belt using the normal stress equation and yield strength. Calculate the belt's outer circumference, then select a suitable belt. I chose 5 inches in length; the pulleys are made of steel, and the belt tension I chose was 5 lbf. After all of my calculations, I went into the McMaster-Carr website and chose the corresponding belt for my project, which is shown below. 
 
 ![Belt](BeltDesign.PNG)
 
-
+![Mcmaster](Capture.PNG)
 ## Shaft Design 
 
 For part 2, I was tasked with determining the minimum shaft diameter by calculating the minimum area required for a shaft made of 1060 hardened steel under torque.
@@ -25,11 +25,7 @@ For part 3, I was tasked with designing the journal bearing out of sintered meta
 
 ![Journal](Journal.PNG)
 
-## Analyze
+## Frame Design
 
-
-## Decide
-
-
-## Communicate
+![Design](Design.PNG)
 
