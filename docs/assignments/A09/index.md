@@ -21,9 +21,10 @@ For part 2, I was tasked with determining the minimum shaft diameter by calculat
 
 ## Journal Bearing Design
 
-For part 3, I was tasked with designing the journal bearing out of sintered metal or non-metallic material using Table 4 on pg 2440 in the Machinery’s Handbook. Determine the pressure. Determine the linear velocity, determine the PV rating, and select a suitable material.
+For part 3, I was tasked with designing the journal bearing out of sintered metal or non-metallic material using Table 4 on pg 2440 in the Machinery’s Handbook. Determine the pressure. Determine the linear velocity, determine the PV rating, and select a suitable material. As shown below my final number was 5,236 psi * ft/min, when looking at the chart from the book I chose to go with a dry graphite bearing material since the PV limit is 15000.
 
 ![Journal](Journal.PNG)
+![sure](Material.PNG)
 
 ## Frame Design
 
