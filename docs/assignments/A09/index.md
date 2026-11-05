@@ -8,14 +8,22 @@ Design a pulley system to transfer power between two parallel axes separated by 
 
 ## Belt Design
 
-For part 1, I was tasked with calculating the forces on both the tight and loose sides with no slippage. Calculate the diameter of the belt using the normal stress equation and yield strength. Calculate the belt's outer circumference, then select a suitable belt.
+For part 1, I calculated the forces on both the tight and loose sides with no slippage. Calculate the diameter of the belt using the normal stress equation and yield strength. Calculate the belt's outer circumference, then select a suitable belt.
 
+![Belt](BeltDesign.PNG)
 
 
 ## Shaft Design 
 
-For part 2, I was tasked with determining the minimum diameter of the shaft by calculating the minimum area when torque is applied to a shaft with 1060 hardened steel.
+For part 2, I was tasked with determining the minimum shaft diameter by calculating the minimum area required for a shaft made of 1060 hardened steel under torque.
 
+![Shaft](ShaftDia.PNG)
+
+## Journal Bearing Design
+
+For part 3, I was tasked with designing the journal bearing out of sintered metal or non-metallic material using Table 4 on pg 2440 in the Machinery’s Handbook. Determine the pressure. Determine the linear velocity, determine the PV rating, and select a suitable material.
+
+![Journal](Journal.PNG)
 
 ## Analyze
 
