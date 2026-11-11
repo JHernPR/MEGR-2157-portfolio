@@ -338,3 +338,4 @@ To meet the minimum SF of 4, we increased the crosshead thickness to 1.25 in and
 This is the drawing of the crosshead after the noted modifications. 
 
 ![A10Drawing](A10Drawing.PNG)
+
