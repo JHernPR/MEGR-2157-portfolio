@@ -359,7 +359,7 @@ This assignment helped reinforce things I learned and applied in previous ones. 
 
 **Jarek -** 
 <br>
-For my part, it was more a review from A7 regarding the FEA of a bracket and how to analyze a part using different mesh configurations, along with an actual understanding of what is going on in the different displays such as von Mises stress, deflection, and safety factor. While SolidWorks exaggerates the bends for the sake of visualization, it provides a clear view of what exactly is going on with the part when you apply a load. Which is more beneficial to do in a simulation looking at it from a cost perspective. The biggest factor that stuck was that the initial model had a FOS of 2.1, and I quickly thought of a way to increase this number when looking at the FOS formula. That's why I decided to increase the thickness, therefore increasing the area. I spent a total of **3 hours** between conducting FEA’s and modifying the part.
+For my part, it was more a review from A7 regarding the FEA of a bracket and how to analyze a part using different mesh configurations, along with an actual understanding of what is going on in the different displays such as von Mises stress, deflection, and safety factor. While SolidWorks exaggerates the bends for the sake of visualization, it provides a clear view of what exactly is going on with the part when you apply a load. Which is more beneficial to do in a simulation looking at it from a cost perspective. The biggest factor that stuck was that the initial model had a FOS of 2.1, and I quickly thought of a way to increase this number when looking at the FOS formula. That's why I decided to increase the thickness, thereby increasing the area. I spent a total of **3 hours** between conducting FEA’s and modifying the part.
 
 
 ## CAD FILES - Antonio Goodson & Jarek Hernandez
@@ -371,3 +371,5 @@ For my part, it was more a review from A7 regarding the FEA of a bracket and how
 [Rev2Part](MODIFIEDCrosshead.SLDPRT)
 
 [Rev2DRW](MODIFIEDCrosshead.SLDDRW)
+
+[Assembly](Assembly.zip)
