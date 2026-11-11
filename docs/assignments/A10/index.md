@@ -305,3 +305,22 @@ The last thing to insert into the assembly was the frame. I had to cut the frame
 ---
 
 ## Section 5: FEA Analysis - Jarek Hernandez Acaba
+
+I started off by downloading the part made by Antonio and adding fixed points, which are two holes where the lead screws would be. 
+
+![fixed](A10FIxed.PNG)
+
+Next was the hole where the 2KN load is placed as stated in the instructions.
+
+![Force](A10Forces.PNG)
+
+![InitialMesh](A10Mesh.PNG)
+
+Once everything needed was established, I conducted an initial FEA on the part with the given parameters found by the equations.
+
+![D1disp](D1Disp.PNG)
+![D1SF](D1SF.PNG)
+![D1Stress](D1Stress.PNG)
+
+
+
