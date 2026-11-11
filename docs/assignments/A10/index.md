@@ -322,13 +322,13 @@ Once everything needed was established, I conducted an initial FEA on the part w
 ![D1SF](D1SF.PNG)
 ![D1Stress](D1Stress.PNG)
 
-The crosshead was loaded to 2kN; the max stress shows that peak stresses were concentrated around the center region where the hole was. The max was 2.68 * 10^7 N/m^2; this works just fine because it is below the yield strength of the material. The max deflection was 2.58 x 10^-5 mm near the center, showcasing high rigidity, which is evidence that the math was done correctly. The only outstanding issue was that the current model's SF was 2.1, and according to the rubric, we had a required factor of safety of 4. I decided to go back into the model and modify the thickness, along with adding a chamfer to the center holes and the inner diameter of both of the outer holes
+The crosshead was loaded to 2kN; the max stress shows that peak stresses were concentrated around the center region where the hole was. The max was 2.68 * 10^7 N/m^2; this works just fine because it is below the yield strength of the material. The max deflection was 2.58 x 10^-5 mm near the center, showing high rigidity and indicating the math was done correctly. The only outstanding issue was that the current model's SF was 2.1, and according to the rubric, we had a required factor of safety of 4. I decided to go back into the model and modify the thickness, along with adding a chamfer to the center holes and the inner diameter of both of the outer holes
 
-![D2thick](D2Thickmod.PNG)
+![D2thick](D2Thickmods.PNG)
 ![D2Mods](D2Mods.PNG)
 
 ![D2disp](D2DISP.PNG)
 ![D2SF](D2SF.PNG)
 ![D2Stress](D2STRESS.PNG)
 
-To meet the minimum SF of 4, the crosshead thickness was increased to 1.25 in and reevaluated under the same load of 2kN. The stress decreased to a max of 1.22 * 10^7 N/m^2 around the previous area as before. The deflection was minimal, with a maximum displacement of 6.60 * 10^-5 mm. Due to the increase thickness the minimum safety factor increased to 4.5, which therefore meets the criteria specified in the instructions.
+To meet the minimum SF of 4, we increased the crosshead thickness to 1.25 in and reevaluated it under the same 2 kN load. The stress decreased to a max of 1.22 * 10^7 N/m^2 around the previous area as before. The deflection was minimal, with a maximum displacement of 6.60 * 10^-5 mm. Due to the increased thickness, the minimum safety factor increased to 4.5, which therefore meets the criteria specified in the instructions.
