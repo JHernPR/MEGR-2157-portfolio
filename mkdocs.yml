@@ -9,6 +9,10 @@ theme:
     - navigation.instant
     - navigation.tracking
 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
 nav:
   - Home: index.md
   - About Me: aboutme/index.md
