@@ -339,3 +339,14 @@ This is the drawing of the crosshead after the noted modifications.
 
 ![A10Drawing](A10Drawing.PNG)
 
+## Lesson learned
+
+
+
+
+## CAD FILES - Antonio Goodson & Jarek Hernandez
+
+[Rev1Part](Crosshead.SLDPRT)
+[Rev1DRW](Crosshead.SLDDRW)
+[Rev2Part](MODIFIEDCrosshead.SLDPRT)
+[Rev2DRW](MODIFIEDCrosshead.SLDDRW)
