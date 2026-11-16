@@ -348,6 +348,8 @@ One of the first steps I took in the assembly was to create a hole for the lead 
 
 ## Section 8: Top Frame FEA Verification - Jarek Hernandez Acaba
 
+To make sure that our assembly could 
+
 ## Section 9: Vertical Standoff FEA Verification - Jarek Hernandez Acaba
 
 ## Bill of Materials & Engineering Cost
