@@ -246,22 +246,6 @@ Nsf,buckling=277,450N1000N=277.54
 
 ## Section 7: Parametrically Model (CAD) - Antonio Goodson
 
-## Section 8: Top Frame FEA Verification - Jarek Hernandez Acaba
-
-## Section 9: Vertical Standoff FEA Verification - Jarek Hernandez Acaba
-
-## Bill of Materials & Engineering Cost
-
-## Lessons Learned
-
-## CAD FILES - Antonio Goodson & Jarek Hernandez
-
-
-
----
-
-## Section 7: Parametrically Model (CAD) - Antonio Goodson
-
 ### Coupler Allignment
 
 The first step of order I took was to insert the coupler and motor. The coupler that I chose was machinable on one side so I changed the inner diameter of that side to be 8 mm to fit the motor shaft. Now the coupler has one side being half an inch and the other 8 mm I was able to connect the motor to the lead screw.
