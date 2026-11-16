@@ -371,6 +371,33 @@ Both motors have a 1,000N normal load applied symmetrically to their inner faces
 Results from FEAs were well beyond the proposed limits, with FS ranging from 25 to 28 against a 250MPa yield strength. Given that the stress numbers were so low compared to the 250MPa yield strength, the structure was over-designed, which means that a good optimization pass to focus on was to reduce the mass of the mounts. This could be done by integrating the coupling into the frame. Critical locations for stresses currently concentrate at the shaft inner fillet transitions where the vertical motor mount columns meet the mounting base pads. 
 
 ## Section 9: Vertical Standoff FEA Verification - Jarek Hernandez Acaba
+For this section, I had to analyze the structural assembly that included the two vertical columns, a crossbeam, lower base rails, and the mounts; the reason it was all included is that the forces are happening at the center where the mounts are located. The material for all of the pieces was an alloy with a yield strength of 2.7 * 10^8 N/m^2 (275 MPa). 
+
+Before proceeding with the FEA, I had to declare fixed boundaries and apply the loads, which consist of two loads: one being an axial compression of 1000 N each and a transverse load of 1.45 N*m  on each mount. 
+
+###
+
+### Coarse 
+![details1](A1COARSEMESHDETAILS.PNG)
+![disp1](A1COARSEDISPFORCES.PNG)
+![stress1](A1COARSESTRESSFORCES.PNG)
+![SF1](A1COARSESFFORCES.PNG)
+
+### MID
+
+![details1](A1MIDMESHDETAIL.PNG)
+![disp1](A1DISPMIDFORCES.PNG)
+![stress1](A1MIDSTRESSFORCES.PNG)
+![SF1](A1MIDSFFORCES.PNG)
+
+### Fine
+
+![details1](A1FINEMESHDETAILS.PNG)
+![disp1](A1FINEDISPFORCES.PNG)
+![stress1](A1FORCESTRESS.PNG)
+![SF1](A1SFFORCES.PNG)
+
+### Results to Report
 
 ## Bill of Materials & Engineering Cost
 
