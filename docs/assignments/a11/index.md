@@ -579,6 +579,10 @@ When it comes to shift in critical locations, I would add some larger corner gus
 
 ## CAD FILES - Antonio Goodson & Jarek Hernandez
 
+[Motor Mount](Motor_Mount.SLDPRT)
+
+[Bearing](Lead_Screw_Bearing.SLDPRT)
+
 [Original_Assembly](A11_Assem.zip)
 
 [Part_1_FEA](A11TOPSTUFF.zip)
