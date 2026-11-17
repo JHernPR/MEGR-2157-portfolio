@@ -111,7 +111,7 @@ b,allow=276106Pa4=69MPa
  
 tmin=10.87N4(0.005m)(276106Pa)=3.1510-5m=0.0315mm
   *(Note: If the 1000N axial thrust load is carried directly through the bracket flange rather than a separate frame thrust bearing, Fbolt,axial=1000N/4=250N).*
-- *Selected Thickness:* To prevent bending deflection, maintain concentric alignment with the lead screw, and accommodate counterbored fasteners, a standard **6.35mm (0.25in) Aluminum 6061-T6** plate is selected (Nsf4).
+- *Selected Thickness:* To prevent bending deflection, maintain concentric alignment with the lead screw, and accommodate counterbored fasteners, a standard ** 6.35 mm (0.25 in) Aluminum 6061-T6** plate is selected (Nsf4).
 
 ---
 
@@ -144,11 +144,11 @@ tcoupler=do-di2
 - *d. Numerical Solution:*
  
 allow=159.25MPa4=39.81MPa (39.81106Pa)
-  Setting di=8.0mm=0.008m and solving numerically for do:
+  Setting di = 8.0 mm = 0.008 m and solving numerically for do:
   $$\frac{16 (1.45\text{ N}\cdot\text{m}) d_o}{\pi\left(d_o^4 - 0.008^4\right)} = 39.81 \times 10^6\text{ Pa} \implies d_{o,\min} = 8.69\text{ mm}$$
  
 t=8.69mm-8.00mm2=0.346mm
-- *Selected Component:* A standard rigid shaft coupling with 8mm D-bore / set-screw clamping (di=8.0mm) and 1.875in outer diameter (do=47.63mm, wall thickness t=19.81mm) is selected to engage the motor's D-shaft flat
+- *Selected Component:* A standard rigid shaft coupling with 8mm D-bore / set-screw clamping (di=8.0mm) and 1.875 in outer diameter (do = 47.63 mm, wall thickness t = 19.81 mm) is selected to engage the motor's D-shaft flat
 
 
 ## Section 4: Frame Twisting Analysis & Corner Bracket Selection - Brian Jones
@@ -158,10 +158,10 @@ t=8.69mm-8.00mm2=0.346mm
 - *a. Knowns and Unknowns:*
   - *Knowns:*
     - Dual axial lead screw loads (Fscrew): 1000N upward per screw (2000N total)
-    - Dual motor reaction torques (Tmotor): $1.45\text{ N}\cdot\text{m}$ each (conservative worst-case: both motors rotate in the same direction, so torques sum to $T_{twist,total} = 2 T_{motor} = 2.90\text{ N}\cdot\text{m}$)
+    - Dual motor reaction torques (Tmotor): $1.45\text{ N}\cdot\text{m}$ each (conservative worst-case: both motors rotate in the same direction, so torques sum to $T_{twist, total} = 2 T_{motor} = 2.90\text{ N}\cdot\text{m}$)
     - Top horizontal frame span (Lframe, matching A10 crosshead/frame width): 300mm (0.300m)
     - Lead screw spacing (Lb, from A10): 200mm (0.200m, located 50mm inboard from each vertical column)
-    - Frame profile: Heavy 40 Series T-Slot Aluminum Extrusion (40mm40mm, 6105-T5 Aluminum, Sy=241MPa, width w=0.040m)
+    - Frame profile: Heavy 40 Series T-Slot Aluminum Extrusion (40 mm x 40 mm, 6105-T5 Aluminum, Sy=241MPa, width w=0.040m)
     - Safety Factor (Nsf): 4
   - *Unknowns:*
     - Vertical reaction forces at each corner joint (Rz)
@@ -193,14 +193,14 @@ Rz=1000N(designloadwithNsf=4:4000N)
 
 - *a. Knowns and Unknowns:*
   - *Knowns:*
-    - Column length (H): 500mm (0.500m, accommodating 18in=457.2mm minimum lead screw length)
+    - Column length (H): 500mm (0.500m, accommodating 18 in = 457.2 mm minimum lead screw length)
     - Axial compressive load per column (P): 1000N
     - Heavy 40 Series (40mm40mm) Moment of Inertia (I): 10.210-8m4 (10.2cm4)
     - Modulus of Elasticity (E, 6105-T5 Aluminum): 68.9GPa (68.9109Pa)
     - End-condition factor (K, pinned-pinned conservative): 1.0
   - *Unknowns:*
     - Critical Euler buckling load (Pcr)
-    - Buckling Safety Factor (Nsf,buckling)
+    - Buckling Safety Factor (Nsf, buckling)
 
 - *b. Free Body Diagram (FBD):*
   *![Vertical Column Buckling FBD](fbd_a11_column_buckling.JPG)*
@@ -225,8 +225,8 @@ Nsf,buckling=277,450N1000N=277.54
 
 - *a. Knowns and Unknowns:*
   - *Knowns:*
-    - Nominal lead screw end-journal diameter (dnominal): 8.000mm (0.3150in, turned end journal of the 1/2"-10 Acme screw)
-    - Required fit class: **RC3 (Close Running Fit)** per *Machinery's Handbook* (0.24–0.40in / 6–10mm basic size range)
+    - Nominal lead screw end-journal diameter (dnominal): 8.000mm (0.3150 in, turned end journal of the 1/2"-10 Acme screw)
+    - Required fit class: **RC3 (Close Running Fit)** per *Machinery's Handbook* (0.24–0.40 in / 6–10mm basic size range)
     - Frame mounting fasteners: M5 socket head cap screws
   - *Unknowns:*
     - Bearing bore upper and lower limits
@@ -245,10 +245,10 @@ Nsf,buckling=277,450N1000N=277.54
 
 ---
 
-## Section 7: Parametrically Model (CAD) - Antonio Goodson
+## Section 7: Parametric Model (CAD) - Antonio Goodson
 
 
-### Coupler Allignment
+### Coupler Alignment
 
 The first step of order I took was to insert the coupler and motor. The coupler that I chose was machinable on one side so I changed the inner diameter of that side to be 8 mm to fit the motor shaft. Now the coupler has one side being half an inch and the other 8 mm I was able to connect the motor to the lead screw.
 
@@ -260,19 +260,19 @@ The first step of order I took was to insert the coupler and motor. The coupler 
 
 ### Motor Mount
 
-Now that I have a motor and coupler attached, I needed to create a mount for the motor so the coupler isn't being interfered with and the motor sits still. The first thing I did was create the necessary equations needed for the amount to do this. I looked at the dimensions of the coupler and motor to fit the Nema 23 sizing.
+Now that I have a motor and coupler attached, I needed to create a mount for the motor so the coupler isn't being interfered with and the motor sits still. The first thing I did was create the necessary equations needed to do this. I looked at the dimensions of the coupler and motor to fit the NEMA 23 sizing.
 
 <p align="center">
   <img src="Mount_Eq.png" alt="Mount_Eq" width="48%" />
 </p>
 
-With the equations I then create an initial sketch for the parts connected to the motor with this I matched the drawing in the motor listing. I also made sure to create the whole that the coupler would sit in. 
+With the equations, I then created an initial sketch for the parts connected to the motor; with this I matched the drawing in the motor listing. I also made sure to create the hole that the coupler would sit in. 
 
 <p align="center">
   <img src="Mount_Sketch.png" alt="Mount_Sketch" width="38%" />
 </p>
 
-After creating the sketch, I went to extrude the necessary regions by the calculated thickness of .25 in, and exclude the coupler hole and M5 screw holes after this I made the inset worth the motor would sit in.
+After creating the sketch, I went to extrude the necessary regions by the calculated thickness of .25 in, and excluded the coupler hole and M5 screw holes. After this, I made the inset where the motor would sit.
 
 <p align="center">
   <img src="Couple_Hole.png" alt="Couple_Hole" width="44%" />
@@ -292,7 +292,7 @@ Last step of the motor mounts was to create the part where it mounts to the fram
   <img src="Cleanup.png" alt="Cleanup" width="37%" />
 </p>
 
-With the mount completed I then added it to the assembly, while including the M5 screws needed, the ones I chose had a length of 12 mm. While doing this, I decided to use the circular pattern to reduce work, which turned out to work perfectly.
+With the mount completed, I then added it to the assembly, including the M5 screws needed; the ones I chose had a length of 12 mm. While doing this, I decided to use the circular pattern to reduce work, which turned out to work perfectly.
 
 <p align="center">
   <img src="Mount_attached.png" alt="Mount_attached" width="43%" />
@@ -300,19 +300,19 @@ With the mount completed I then added it to the assembly, while including the M5
 
 ### Lead Screw Bearing
 
-With the mount completed, I sent the bearing to hold the lead screw in place at the bottom of the frame doing this. I created a list of equations so it helps this list of equations share similarities with the motor mount as it connects to the same type of frame. I made sure to go by the book with a RC3 clearance for a diameter of 0.5 inches.
+With the mount completed, I sent the bearing to hold the lead screw in place at the bottom of the frame doing this. I created a list of equations so it helps this list of equations share similarities with the motor mount, as it connects to the same type of frame. I made sure to go by the book with a RC3 clearance for a diameter of 0.5 inches.
 
 <p align="center">
   <img src="Bearing_Eq.png" alt="Bearing_Eq" width="56%" />
 </p>
 
-The steps are the same as the motor mount where I create a sketch to map things out. The sketch is almost identical to the side of the motor mount where it connects to the frame.
+The steps are the same as the motor mount, where I create a sketch to map things out. The sketch is almost identical to the side of the motor mount where it connects to the frame.
 
 <p align="center">
   <img src="Bearing_Sketch.png" alt="Bearing_Sketch" width="50%" />
 </p>
 
-I extrude the calculated thickness and a certain length to align the lead screw and then clean up the model. This is important as it prevents the lead screw from jumping out of its necessary place, it also prevents the crosshead from rotating.
+I extrude the calculated thickness and a certain length to align the lead screw and then clean up the model. This is important as it prevents the lead screw from jumping out of its necessary place; it also prevents the crosshead from rotating.
 
 <p align="center">
   <img src="Bearing_Shape.png" alt="Bearing_Shape" width="40%" />
@@ -321,7 +321,7 @@ I extrude the calculated thickness and a certain length to align the lead screw 
 
 ### Assembly
 
-One of the first steps I took in the assembly was to create a hole for the lead screw as seen in the following image. This is important as a private provides a space where the lead screw can actually sit like in the top frame where it goes through and the bottom frame where it has room to move. I then inserted the lead screw bearing and aligned it. After this, I added the necessary bolts to complete the assembly.
+One of the first steps I took in the assembly was to create a hole for the lead screw, as seen in the following image. This is important as it provides a space where the lead screw can actually sit, like in the top frame where it goes through and the bottom frame where it has room to move. I then inserted the lead screw bearing and aligned it. After this, I added the necessary bolts to complete the assembly.
 <p align="center">
   <img src="Clear_Hole.png" alt="Clear_Hole" width="44%" />
   <img src="Bearing_Fitted.png" alt="Bearing_Fitted" width="39%" />
@@ -375,7 +375,7 @@ Results from FEAs were well beyond the proposed limits, with FS ranging from 25 
 ## Section 9: Vertical Standoff FEA Verification - Jarek Hernandez Acaba
 For this section, I had to analyze the structural assembly that included the two vertical columns, a crossbeam, lower base rails, and the mounts; the reason it was all included is that the forces are happening at the center where the mounts are located. The material for all of the pieces was an alloy with a yield strength of 2.7 * 10^8 N/m^2 (275 MPa). 
 
-Before proceeding with the FEA, I had to declare fixed boundaries and apply the loads, which consist of two loads: one being an axial compression of 1000 N each and a transverse load of 1.45 N*m  on each mount. 
+Before proceeding with the FEA, I had to define fixed boundaries and apply the loads, which consist of two loads: one being an axial compression of 1000 N each and a transverse load of 1.45 N*m  on each mount. 
 
 ### Fixed and loads
 
