@@ -377,7 +377,11 @@ For this section, I had to analyze the structural assembly that included the two
 
 Before proceeding with the FEA, I had to declare fixed boundaries and apply the loads, which consist of two loads: one being an axial compression of 1000 N each and a transverse load of 1.45 N*m  on each mount. 
 
-###
+### Fixed and loads
+
+![fixed](A1FIXED.PNG)
+![loads](A1TQ.PNG)
+
 
 ### Coarse 
 ![details1](A1COARSEMESHDETAILS.PNG)
@@ -401,8 +405,176 @@ Before proceeding with the FEA, I had to declare fixed boundaries and apply the 
 
 ### Results to Report
 
+| Mesh Level | Elements | Max Displacement (mm) | Max von Mises Stress (MPa) | Min Factor of Safety (SF) | % Change in Stress | % Change in Deflection |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Coarse** | 470,003 | 0.2774 | 16.95 | 16 | — | — |
+| **Medium** | 1,147,816 | 0.2817 | 16.71 | 16 | -1.42% | +1.55% |
+| **Fine** | 5,258,615 | 0.2847 | 19.97 | 14 | +19.51% | +1.07% |
+
+Deflection converged across all of the refinements, changing by only 1.55% from coarse to medium and 1.07% from medium to fine. Stress numbers were relatively stable between coarse and medium, and the fine mesh increased to 19.97 MPa. The max stress was 19.97 MPa at the corners of the T-slot edges. The max deflection was .287mm at the upper motor mount top flange and the center span of the horizontal cross beam. The factor of safety stayed well above 4%. The two forces I previously stated, 1.45 N*m and the 1000 N loads entered through the motor mount, induce bending and torsion in the upper horizontal crossbeam. The deformed plots reveal noticeable portal frame sway. Another thing I noted was that the 1.45 N*m per-mount torque introduces a slight asymmetric twist along the top crossbeam, causing one side of the upper assembly to deflect slightly further than the opposite upright
+
+### Optimization pass
+
+Some of the proposed targeted changes would be to add some cross bracing to cut the .2847 mm of deflection, as it would make the structure even sturdier. Another thing would be to pocket the non-load-bearing material from the motor mount walls to reduce top-heavy mass, while thickening the base flange pads and increasing the radii to diffuse local clamping stresses. Due to SF being so high, I would also downsize the frame profile in order to make it sturdier, and while it decreases SF, it's a good trade-off to do.
+
+When it comes to shift in critical locations, I would add some larger corner gussets and thicker motor mount flanges to relieve the sharp stress risers currently concentrated at the base's corners and mounting edges. Doing this, the peak stresses will distribute more evenly along the mid-span bending fibers of the vertical uprights. 
+
+
 ## Bill of Materials & Engineering Cost
 
+<table>
+  <thead>
+    <tr>
+      <th>Item Number</th>
+      <th>Quantity</th>
+      <th>Name</th>
+      <th>Cost Per</th>
+      <th>Cost</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>1/2"-10 Lead Screw</td>
+      <td>$9.90</td>
+      <td>$19.80</td>
+      <td>www.mcmaster.com/98935A823</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2</td>
+      <td>Flange Nut</td>
+      <td>$125.72 each</td>
+      <td>$251.44</td>
+      <td>www.mcmaster.com/95120A111</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1</td>
+      <td>T-Slot Framing System</td>
+      <td>$245.87</td>
+      <td>$245.87</td>
+      <td>www.grainger.com/product/80-20-T-Slot-Framing-System-Rectangle-804T48</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2</td>
+      <td>Nema 23 Stepper Motor 2.4Nm 4A 57x57x82mm 8mm</td>
+      <td>$18.92</td>
+      <td>$37.84</td>
+      <td>www.omc-stepperonline.com/nema-23-stepper-motor-2-4nm-339-79oz-in-4a-57x57x82mm-8mm-shaft-4-wires-23hs32-4004s</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2</td>
+      <td>Machinable-Bore Clamping Shaft Coupling</td>
+      <td>$39.05</td>
+      <td>$78.10</td>
+      <td>www.mcmaster.com/3084K31/</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>1</td>
+      <td>Black-Oxide Alloy Steel Socket Head Screw (100 count)</td>
+      <td>$16.36</td>
+      <td>$16.36</td>
+      <td>www.mcmaster.com/91290A228/</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2</td>
+      <td>Inside Corner Bracket: Wide Inside-Corner Bracket, 15 Series, 1 1/2 in x 2 13/16 in x 1 1/2 in</td>
+      <td>$9.99</td>
+      <td>$19.98</td>
+      <td>www.grainger.com/product/80-20-Inside-Corner-Bracket-Wide-5JRU9</td>
+    </tr>
+<br>
+    </tr>
+    <tfoot>
+    <tr>
+      <td colspan="2" style="text-align: center; font-weight: bold; background-color: #f9f9f9;">
+        Total Part Cost: $669.39
+      </td>
+    </tr>
+  </tfoot>
+  </tbody>
+</table>
+  <br>
+
+<table>
+  <thead>
+    <tr>
+      <th>Person</th>
+      <th>Hours</th>
+      <th>Hourly</th>
+      <th>Cost</th>
+    </tr>
+  </thead>
+  <body>
+    <tr>
+      <td>Brian</td>
+      <td>5</td>
+      <td>$35</td>
+      <td>$175</td>
+    </tr>
+    <tr>
+      <td>Antonio</td>
+      <td>6</td>
+      <td>$35</td>
+      <td>$210</td>
+    </tr>
+    <tr>
+      <td>Jarek</td>
+      <td>6</td>
+      <td>$35</td>
+      <td>$210</td>
+    </tr>
+    <tfoot>
+    <tr>
+      <td colspan="2" style="text-align: center; font-weight: bold; background-color: #f9f9f9;">
+      Pay Cost: $595
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center; font-weight: bold; background-color: #f9f9f9;">
+        Project Cost: $1,264.39
+    </tr>
+  </tfoot>
+  </body>
+</table>
+
+
 ## Lessons Learned
+
+### - Brian Jones
+
+- *Time Spent:* 4.5 hours
+- *Key Takeaways:*
+  - I learned how to calculate motor speed (0.394–19.69RPM) and torque ($1.45\text{ N}\cdot\text{m}$) from crosshead velocity (1–50mm/min), screw lead (2.54mm/rev), and friction losses (=0.15, mech=0.90)
+  - I learned that theoretical stress minimums (like a 0.0315mm bracket thickness at Nsf=4) are much thinner than what can be practically machined, so manufacturability governs the final part sizes
+  - I learned how to resolve dual motor reaction torques ($2.90\text{ N}\cdot\text{m}$) into frame stabilizing forces (36.25N) and verify vertical standoff stability using Euler column buckling (Nsf=277.5)
+  - I learned how to use *Machinery's Handbook* to select an RC3 running fit (H7/f6) and M5 clearance holes so the lower lead screw bearing floats axially without binding
+
+### - Antonio Goodson
+
+- *Time Spent:* 6 hours
+- *Key Takeaways:*
+  - Within this assignment, I feel that I was able to research more effectively and with better foresight of how things would work together.
+  - Some setbacks that I encountered were finding the appropriate motor and coupler.
+  - The problem was that finding a motor with a keyed shaft with a diameter of 8 mm was difficult. When I did find one, it cost over $1000, so I switched to a D-shaped shaft and found a stepper motor within the specifications, which greatly reduced the cost.
+  - For the coupler, there was great trouble finding one that would connect an 8 mm to a half inch, so what I did was find a machinable coupler that connected to Half an inch and increase the machining hole in the CAD software.
+
+
+### - Jarek Hernandez
+
+- *Time Spent:* 6 hours
+- *Key Takeaways:*
+  - I was able to get more practice with SolidWorks' FEA modeling tools and learned how to apply multiple loads in this case, one axial compression force while also having a transverse load.
+  - Quickly realized how important it is to have an ample amount of space on your computer to run FEA models.
+  - While looking at supports to assemble the frame, I quickly realized how much variety there is and how important it is to pick the correct brackets to prevent failures.
+  - I also learned how crucial it is to have a good graphics card the bigger the assemblies get due to increase poly count the bigger a toll it takes on your computer.
+  - This is more a review from A7, but I also remembered how important theoretical verification is, by comparing your results from FEA to the original hand calculations to validate simulation results.
 
 ## CAD FILES - Antonio Goodson & Jarek Hernandez
