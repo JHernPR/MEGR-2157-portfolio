@@ -578,3 +578,7 @@ When it comes to shift in critical locations, I would add some larger corner gus
   - This is more a review from A7, but I also remembered how important theoretical verification is, by comparing your results from FEA to the original hand calculations to validate simulation results.
 
 ## CAD FILES - Antonio Goodson & Jarek Hernandez
+
+[Original_Assembly](A11_Assem.zip)
+[Part_1_FEA](A11TOPSTUFF.zip)
+[Part_2_FEA](A11FEA2.zip)
