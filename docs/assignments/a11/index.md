@@ -484,10 +484,10 @@ When it comes to shift in critical locations, I would add some larger corner gus
     </tr>
     <tr>
       <td>7</td>
-      <td>2</td>
+      <td>6</td>
       <td>Inside Corner Bracket: Wide Inside-Corner Bracket, 15 Series, 1 1/2 in x 2 13/16 in x 1 1/2 in</td>
       <td>$9.99</td>
-      <td>$19.98</td>
+      <td>$59.94</td>
       <td>www.grainger.com/product/80-20-Inside-Corner-Bracket-Wide-5JRU9</td>
     </tr>
 <br>
@@ -495,7 +495,7 @@ When it comes to shift in critical locations, I would add some larger corner gus
     <tfoot>
     <tr>
       <td colspan="2" style="text-align: center; font-weight: bold; background-color: #f9f9f9;">
-        Total Part Cost: $669.39
+        Total Part Cost: $709.35
       </td>
     </tr>
   </tfoot>
