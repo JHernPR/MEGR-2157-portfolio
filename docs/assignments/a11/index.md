@@ -591,4 +591,11 @@ When it comes to shift in critical locations, I would add some larger corner gus
 
 ## 2157 Section
 
+![BEARING](BEARINGMOUNT.PNG)
+![NUT](BEARINGNUT.PNG)
+![MOUNT](MOTORMOUNT.PNG)
+
+[Bearing](Lead_Screw_Bearing.SLDDRW)
+[Nut](95120A111_932_Bearing_Bronze_Acme_Flange_Nut.SLDDRW)
+[Mount](Motor_Mount.SLDDRW)
 
